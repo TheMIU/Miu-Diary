@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miu Diary</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Miu Diary</div>
+    <div id="tag-filters"></div>
+  </header>
+  <div id="content"></div>
+
+  <div id="lb">
+    <button id="lb-close" onclick="closeLb()">✕</button>
+    <button class="arr" id="lb-prev" onclick="nav(1)">‹</button>
+    <button class="arr" id="lb-next" onclick="nav(-1)">›</button>
+    <div id="lb-inner">
+      <img id="lb-img" src="" alt="">
+      <div id="lb-info">
+        <div id="lb-date"></div>
+        <div id="lb-file"></div>
+        <div class="lb-label">tags</div>
+        <div id="lb-tags"></div>
+        <div id="lb-notes-wrap">
+          <div class="lb-label">notes</div>
+          <div id="lb-notes"></div>
+        </div>
+        <div id="lb-links-wrap">
+          <div class="lb-label">links</div>
+          <div id="lb-links"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="entries.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
