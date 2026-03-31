@@ -15,8 +15,29 @@
         notes: "",
         links: []
 }, */
-    
+
 const entries = [
+    {
+        path: "img/2026/03/2026_03_30_3.png",
+        date: "2026-03-30",
+        tags: ["blender", "trees"],
+        notes: "",
+        links: ["https://www.youtube.com/watch?v=4Knlb0vohDk"]
+    },
+    {
+        path: "img/2026/03/2026_03_30_2.png",
+        date: "2026-03-30",
+        tags: ["YooGameArt", "PhotoShop"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/03/2026_03_30_1.png",
+        date: "2026-03-30",
+        tags: ["godot", "freelance"],
+        notes: "",
+        links: []
+    },
     {
         path: "img/2026/03/2026_03_29_12.png",
         date: "2026-03-29",
@@ -83,7 +104,7 @@ const entries = [
     {
         path: "img/2026/03/2026_03_29_3.png",
         date: "2026-03-29",
-        tags: ["blender", "texturing" ],
+        tags: ["blender", "texturing"],
         notes: "",
         links: []
     },
