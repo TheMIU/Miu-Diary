@@ -18,149 +18,163 @@
 
 const entries = [
     {
+        path: "img/2026/04/2026_04_01_2.png",
+        date: "2026-04-01",
+        tags: ["Life", "M Entertainment"],
+        notes: "",
+        links: ["https://www.youtube.com/watch?v=Zo37fdYyGfY"]
+    },
+    {
+        path: "img/2026/04/2026_04_01_1.png",
+        date: "2026-04-01",
+        tags: ["Facebook", "Life"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/03/2026_03_31_1.png",
         date: "2026-03-31",
-        tags: ["journal"],
+        tags: ["Journal"],
         notes: "",
         links: []
     },
     {
         path: "img/2026/03/2026_03_30_3.png",
         date: "2026-03-30",
-        tags: ["blender", "trees"],
+        tags: ["Blender", "Trees"],
         notes: "",
         links: ["https://www.youtube.com/watch?v=4Knlb0vohDk"]
     },
     {
         path: "img/2026/03/2026_03_30_2.png",
         date: "2026-03-30",
-        tags: ["YooGameArt", "PhotoShop"],
+        tags: ["Yoo Game Art", "PhotoShop"],
         notes: "",
         links: []
     },
     {
         path: "img/2026/03/2026_03_30_1.png",
         date: "2026-03-30",
-        tags: ["godot", "freelance"],
+        tags: ["Godot", "Freelance"],
         notes: "",
         links: []
     },
     {
         path: "img/2026/03/2026_03_29_12.png",
         date: "2026-03-29",
-        tags: ["Miusoft", "godot"],
+        tags: ["Miusoft", "Godot"],
         notes: "",
         links: []
     },
     {
         path: "img/2026/03/2026_03_29_11.png",
         date: "2026-03-29",
-        tags: ["gamedev", "GodotSensei"],
+        tags: ["Game Dev", "Godot Sensei"],
         notes: "",
-        links: ["https://godot-sinhala.miusoftgames.com/"]
+        links: ["https://Godot-sinhala.miusoftgames.com/"]
     },
     {
         path: "img/2026/03/2026_03_29_10.png",
         date: "2026-03-29",
-        tags: ["YooGameArt", "gamedev"],
+        tags: ["Yoo Game Art", "Game Dev"],
         notes: "",
         links: ["website: https://assets.dasca.studio/"]
     },
     {
         path: "img/2026/03/2026_03_29_9.png",
         date: "2026-03-29",
-        tags: ["films", "batman", "memos"],
+        tags: ["Films", "BatMan"],
         notes: "",
         links: []
     },
     {
         path: "img/2026/03/2026_03_29_8.png",
         date: "2026-03-29",
-        tags: ["MiuPlays", "Games"],
+        tags: ["Miu Plays", "Games"],
         notes: "",
         links: ["https://www.youtube.com/@MiuPlayGames"]
     },
     {
         path: "img/2026/03/2026_03_29_7.png",
         date: "2026-03-29",
-        tags: ["godot", "GodotSensei"],
+        tags: ["Godot", "Godot Sensei"],
         notes: "කලින් post එක,",
-        links: ["https://www.linkedin.com/posts/kasun-miuranga_godot-godotengine-gamedev-activity-7438094661111664640-FPS2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADM6alUBTddY3HSzUytLibqK6lajxFZyPKM"]
+        links: ["https://www.linkedin.com/posts/kasun-miuranga_Godot-Godotengine-Game Dev-activity-7438094661111664640-FPS2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADM6alUBTddY3HSzUytLibqK6lajxFZyPKM"]
     },
     {
         path: "img/2026/03/2026_03_29_6.png",
         date: "2026-03-29",
-        tags: ["blender", "trees", "particles"],
+        tags: ["Blender", "Trees", "Particles"],
         notes: "Tutorial link එක, timestamp: 3:46",
         links: ["https://www.youtube.com/watch?v=3owlx-NI1io"]
     },
     {
         path: "img/2026/03/2026_03_29_5.png",
         date: "2026-03-29",
-        tags: ["blender", "trees", "particles"],
+        tags: ["Blender", "Trees", "Particles"],
         notes: "Tutorial link එක, මේකෙ අන්තිම ටිකේ ඇත්තෙ.",
         links: ["https://www.youtube.com/watch?v=o54gVHUPdCU"]
     },
     {
         path: "img/2026/03/2026_03_29_4.png",
         date: "2026-03-29",
-        tags: ["optimize", "texturing", "tools"],
+        tags: ["Texturing", "Tools"],
         notes: "imagecompressor link එක,",
         links: ["https://imagecompressor.11zon.com/en/image-compressor/compress-image-without-losing-quality"]
     },
     {
         path: "img/2026/03/2026_03_29_3.png",
         date: "2026-03-29",
-        tags: ["blender", "texturing"],
+        tags: ["Blender", "Texturing"],
         notes: "",
         links: []
     },
     {
         path: "img/2026/03/2026_03_29_2.png",
         date: "2026-03-29",
-        tags: ["blender", "trees"],
+        tags: ["Blender", "Trees"],
         notes: "Tutorial link එක,",
         links: ["https://www.youtube.com/watch?v=v4dvQBPCtBA"]
     },
     {
         path: "img/2026/03/2026_03_29_1.png",
         date: "2026-03-29",
-        tags: ["blender", "rigging"],
+        tags: ["Blender", "Rigging"],
         notes: "",
         links: []
     },
     {
         path: "img/2026/03/2026_03_28_5.png",
         date: "2026-03-28",
-        tags: ["film", "batman", "M Entertainment"],
+        tags: ["Film", "BatMan", "M Entertainment"],
         notes: "පහළින් තියෙන්නෙ shorts playlist එකේ link එක",
         links: ["https://www.youtube.com/playlist?list=PLBFTR8otL-ZVHrO64UaeoBYgCn7Asruip"]
     },
     {
         path: "img/2026/03/2026_03_28_4.png",
         date: "2026-03-28",
-        tags: ["blender"],
+        tags: ["Blender"],
         notes: "",
         links: []
     },
     {
         path: "img/2026/03/2026_03_28_3.png",
         date: "2026-03-28",
-        tags: ["film", "game dev", "life"],
+        tags: ["Film", "Game Dev", "Life"],
         notes: "FB post link එකයි, මං හදපු website link එකයි පහළ ඇති.",
         links: ["https://web.facebook.com/share/p/18hmFDRLdZ/", "https://themiu.github.io/Indie-Game-The-Movie-Sinhala-Sub"]
     },
     {
         path: "img/2026/03/2026_03_28_2.png",
         date: "2026-03-28",
-        tags: ["journal", "life", "chatgpt"],
+        tags: ["Journal", "Life", "ChatGPT"],
         notes: "",
         links: []
     },
     {
         path: "img/2026/03/2026_03_28_1.png",
         date: "2026-03-28",
-        tags: ["life", "journal", "kleki"],
+        tags: ["Life", "Journal", "Kleki"],
         notes: "kleki කියන්නේ web paint tool එකක්",
         links: ["https://kleki.com/"]
     },
