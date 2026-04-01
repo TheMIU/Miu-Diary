@@ -18,6 +18,13 @@
 
 const entries = [
     {
+        path: "img/2026/03/2026_03_31_1.png",
+        date: "2026-03-31",
+        tags: ["journal"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/03/2026_03_30_3.png",
         date: "2026-03-30",
         tags: ["blender", "trees"],
