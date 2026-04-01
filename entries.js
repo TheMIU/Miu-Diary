@@ -18,6 +18,27 @@
 
 const entries = [
     {
+        path: "img/2026/04/2026_04_01_5.png",
+        date: "2026-04-01",
+        tags: ["Godot Sensei"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_01_4.png",
+        date: "2026-04-01",
+        tags: ["Miusoft", "Yoo Game Art"],
+        notes: "",
+        links: ["https://services.yoogameart.com/"]
+    },
+    {
+        path: "img/2026/04/2026_04_01_3.png",
+        date: "2026-04-01",
+        tags: ["Miusoft", "Yoo Game Art"],
+        notes: "",
+        links: ["https://www.linkedin.com/posts/kasun-miuranga_godot-activity-7445019222998446080-ZsQ2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADM6alUBTddY3HSzUytLibqK6lajxFZyPKM"]
+    },
+    {
         path: "img/2026/04/2026_04_01_2.png",
         date: "2026-04-01",
         tags: ["Life", "M Entertainment"],
