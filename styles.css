@@ -90,7 +90,7 @@
  #layout {
      display: flex;
      align-items: flex-start;
-     max-width: 1300px;
+    /*  max-width: 1300px; */
      margin: 0 auto;
      padding: 2.5rem 2rem;
      gap: 2rem;

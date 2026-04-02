@@ -22,11 +22,46 @@ const tagGroups = {
     "Art": ["Kleki", "PhotoShop"],
     "Life": ["Life", "Journal", "ChatGPT", "Facebook"],
     "Work": ["Miusoft", "Yoo Game Art", "Freelance"],
-    "Media": ["Films", "Film", "BatMan", "Games", "Miu Plays", "M Entertainment"],
+    "Media": ["Films", "Film", "Bat Man", "Games", "Miu Plays", "M Entertainment"],
     "Tools": ["Tools", "Texturing"]
 };
 
 const entries = [
+    {
+        path: "img/2026/04/2026_04_02_5.png",
+        date: "2026-04-02",
+        tags: ["Miu Plays"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_02_4.png",
+        date: "2026-04-02",
+        tags: ["Miusoft"],
+        notes: "",
+        links: ["https://www.youtube.com/playlist?list=PLWdY-EVyz634dRfJr1ACNHrHO90I1As2J"]
+    },
+    {
+        path: "img/2026/04/2026_04_02_3.png",
+        date: "2026-04-02",
+        tags: ["Journal"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_02_2.png",
+        date: "2026-04-02",
+        tags: ["Game Dev", "Miusoft"],
+        notes: "",
+        links: ["https://games.needlesack.com/game-loader?gameName=ghost&orientation=portrait"]
+    },
+    {
+        path: "img/2026/04/2026_04_02_1.png",
+        date: "2026-04-02",
+        tags: ["Journal"],
+        notes: "",
+        links: []
+    },
     {
         path: "img/2026/04/2026_04_01_5.png",
         date: "2026-04-01",
