@@ -82,13 +82,13 @@ function buildSidebar() {
         return `<div class="nav-year">
             <div class="nav-year-label">${year}</div>
             ${months.map(m => {
-                const k = year + "-" + m;
-                const active = k === currentMonthKey ? " nav-active" : "";
-                return `<div class="nav-month${active}" onclick="goToMonth('${k}')">
+            const k = year + "-" + m;
+            const active = k === currentMonthKey ? " nav-active" : "";
+            return `<div class="nav-month${active}" onclick="goToMonth('${k}')">
                     ${MONTHS[parseInt(m) - 1].slice(0, 3)}
                     <span class="nav-count">${byYear[year][m]}</span>
                 </div>`;
-            }).join("")}
+        }).join("")}
         </div>`;
     }).join("");
 }
@@ -150,13 +150,15 @@ function render() {
 
     document.getElementById("pager").innerHTML = `
         <div class="pager-inner">
-            <button class="pager-btn" onclick="goToMonth('${prevKey}')" ${!prevKey ? "disabled" : ""}>
-                ← ${prevKey ? labelFor(prevKey) : ""}
-            </button>
-            <span class="pager-info">${filtered.length} entr${filtered.length === 1 ? "y" : "ies"}</span>
             <button class="pager-btn" onclick="goToMonth('${nextKey}')" ${!nextKey ? "disabled" : ""}>
-                ${nextKey ? labelFor(nextKey) : ""} →
+                ← ${nextKey ? labelFor(nextKey) : ""}
             </button>
+
+            <span class="pager-info">${filtered.length} entr${filtered.length === 1 ? "y" : "ies"}</span>
+
+            <button class="pager-btn" onclick="goToMonth('${prevKey}')" ${!prevKey ? "disabled" : ""}>
+                ${prevKey ? labelFor(prevKey) : ""} →
+            </button>            
         </div>`;
 }
 
@@ -192,11 +194,71 @@ function nav(dir) {
 document.getElementById("lb").addEventListener("click", e => {
     if (e.target === document.getElementById("lb")) closeLb();
 });
+// ── tag panel ─────────────────────────────────────────────
+function buildTagPanel() {
+    if (typeof tagGroups === "undefined") return;
+
+    const body = document.getElementById("tag-panel-body");
+    const allActive = activeTag === "all";
+
+    let html = `<button id="tag-panel-all" class="${allActive ? "active" : ""}" onclick="selectPanelTag('all')">all entries</button>`;
+
+    for (const [group, tags] of Object.entries(tagGroups)) {
+        const isOpen = tags.includes(activeTag);
+        html += `<div class="tg-group${isOpen ? " open" : ""}">
+            <div class="tg-group-header" onclick="toggleGroup(this)">
+                ${group} <span class="tg-arrow">›</span>
+            </div>
+            <div class="tg-items">
+                ${tags.map(t => `<div class="tg-tag${t === activeTag ? " active" : ""}" onclick="selectPanelTag('${t}')">${t}</div>`).join("")}
+            </div>
+        </div>`;
+    }
+
+    body.innerHTML = html;
+}
+
+function toggleGroup(header) {
+    header.parentElement.classList.toggle("open");
+}
+
+function selectPanelTag(tag) {
+    activeTag = tag;
+    const pill = document.getElementById("active-tag-pill");
+    pill.textContent = tag;
+    document.getElementById("tag-search").value = tag === "all" ? "" : tag;
+    const months = getMonthKeys();
+    currentMonthKey = months[0] || null;
+    closeTagPanel();
+    render();
+}
+
+function toggleTagPanel() {
+    const panel = document.getElementById("tag-panel");
+    if (panel.classList.contains("on")) {
+        closeTagPanel();
+    } else {
+        buildTagPanel();
+        panel.classList.add("on");
+        document.getElementById("tag-panel-overlay").classList.add("on");
+        document.getElementById("tag-panel-btn").classList.add("open");
+    }
+}
+
+function closeTagPanel() {
+    document.getElementById("tag-panel").classList.remove("on");
+    document.getElementById("tag-panel-overlay").classList.remove("on");
+    document.getElementById("tag-panel-btn").classList.remove("open");
+}
+
 document.addEventListener("keydown", e => {
-    if (!document.getElementById("lb").classList.contains("on")) return;
-    if (e.key === "Escape") closeLb();
-    if (e.key === "ArrowLeft") nav(1);
-    if (e.key === "ArrowRight") nav(-1);
+    if (document.getElementById("lb").classList.contains("on")) {
+        if (e.key === "Escape") closeLb();
+        if (e.key === "ArrowLeft") nav(1);
+        if (e.key === "ArrowRight") nav(-1);
+        return;
+    }
+    if (e.key === "Escape") closeTagPanel();
 });
 
 render();

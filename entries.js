@@ -16,6 +16,16 @@
         links: []
 }, */
 
+const tagGroups = {
+    "3D": ["Blender", "Rigging", "Texturing", "Trees", "Particles"],
+    "Game": ["Godot", "Godot Sensei", "Game Dev"],
+    "Art": ["Kleki", "PhotoShop"],
+    "Life": ["Life", "Journal", "ChatGPT", "Facebook"],
+    "Work": ["Miusoft", "Yoo Game Art", "Freelance"],
+    "Media": ["Films", "Film", "BatMan", "Games", "Miu Plays", "M Entertainment"],
+    "Tools": ["Tools", "Texturing"]
+};
+
 const entries = [
     {
         path: "img/2026/04/2026_04_01_5.png",
@@ -104,7 +114,7 @@ const entries = [
     {
         path: "img/2026/03/2026_03_29_9.png",
         date: "2026-03-29",
-        tags: ["Films", "BatMan"],
+        tags: ["Films", "Bat Man"],
         notes: "",
         links: []
     },
@@ -167,7 +177,7 @@ const entries = [
     {
         path: "img/2026/03/2026_03_28_5.png",
         date: "2026-03-28",
-        tags: ["Film", "BatMan", "M Entertainment"],
+        tags: ["Film", "Bat Man", "M Entertainment"],
         notes: "පහළින් තියෙන්නෙ shorts playlist එකේ link එක",
         links: ["https://www.youtube.com/playlist?list=PLBFTR8otL-ZVHrO64UaeoBYgCn7Asruip"]
     },

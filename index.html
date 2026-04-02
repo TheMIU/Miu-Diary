@@ -15,8 +15,20 @@
     <div id="tag-filters">
       <input id="tag-search" type="text" placeholder="search tags…" oninput="filterBySearch(this.value)" autocomplete="off">
       <button class="pill on" id="active-tag-pill">all</button>
+      <button id="tag-panel-btn" onclick="toggleTagPanel()" title="browse tags">#</button>
     </div>
   </header>
+
+  <!-- tag panel -->
+  <div id="tag-panel-overlay" onclick="closeTagPanel()"></div>
+  <div id="tag-panel">
+    <div id="tag-panel-header">
+      <span>tags</span>
+      <button onclick="closeTagPanel()">✕</button>
+    </div>
+    <div id="tag-panel-body"></div>
+  </div>
+
   <div id="layout">
     <nav id="sidebar">
       <div id="month-nav"></div>
