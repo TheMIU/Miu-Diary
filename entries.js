@@ -17,16 +17,39 @@
 }, */
 
 const tagGroups = {
-    "3D": ["Blender", "Rigging", "Texturing", "Trees", "Particles"],
-    "Game": ["Godot", "Godot Sensei", "Game Dev"],
-    "Art": ["Kleki", "PhotoShop"],
-    "Life": ["Life", "Journal", "ChatGPT", "Facebook"],
-    "Work": ["Miusoft", "Yoo Game Art", "Freelance"],
-    "Media": ["Films", "Film", "Bat Man", "Games", "Miu Plays", "M Entertainment"],
-    "Tools": ["Tools", "Texturing"]
+    "Work": ["Miusoft", "Yoo Game Art", "Godot Sensei", "Freelance", "Marketing"],
+    "Other": ["Life", "Tools", "Blender", "Godot", "Art", "Miu Plays", "M Entertainment", "Film"]
 };
 
 const entries = [
+    {
+        path: "img/2026/04/2026_04_03_4.png",
+        date: "2026-04-03",
+        tags: ["Miusoft", "Marketing"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_03_3.png",
+        date: "2026-04-03",
+        tags: ["Tools"],
+        notes: "",
+        links: ["https://poly.pizza/"]
+    },
+    {
+        path: "img/2026/04/2026_04_03_2.png",
+        date: "2026-04-03",
+        tags: ["Yoo Game Art", "Marketing"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_03_1.png",
+        date: "2026-04-03",
+        tags: ["Life"],
+        notes: "",
+        links: []
+    },
     {
         path: "img/2026/04/2026_04_02_5.png",
         date: "2026-04-02",
