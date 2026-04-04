@@ -23,6 +23,41 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/04/2026_04_04_5.png",
+        date: "2026-04-04",
+        tags: ["Godot Sensei", "Life"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_04_4.png",
+        date: "2026-04-04",
+        tags: ["Miu Plays", "Games"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_04_3.png",
+        date: "2026-04-04",
+        tags: ["Miu Plays", "Games"],
+        notes: "",
+        links: ["https://www.youtube.com/watch?v=aZR9LFDu_Ow&lc=UgwsNxIk_iwqIe7p7454AaABAg"]
+    },
+    {
+        path: "img/2026/04/2026_04_04_2.png",
+        date: "2026-04-04",
+        tags: ["Film", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_04_1.png",
+        date: "2026-04-04",
+        tags: ["Film", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/04/2026_04_03_4.png",
         date: "2026-04-03",
         tags: ["Miusoft", "Marketing"],
