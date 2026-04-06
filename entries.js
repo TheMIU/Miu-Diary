@@ -23,6 +23,20 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/04/2026_04_06_2.png",
+        date: "2026-04-06",
+        tags: ["Yoo Game Art", "Godot"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_06_1.png",
+        date: "2026-04-06",
+        tags: ["Yoo Game Art", "Miusoft"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/04/2026_04_05_1.png",
         date: "2026-04-05",
         tags: ["Game Dev", "Yoo Game Art", "Miusoft"],
