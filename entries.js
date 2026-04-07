@@ -22,6 +22,41 @@ const tagGroups = {
 };
 
 const entries = [
+        {
+        path: "img/2026/04/2026_04_07_8.png",
+        date: "2026-04-07",
+        tags: ["Game Dev", "Miu Plays", "Games"],
+        notes: "",
+        links: ["https://youtu.be/jU5ZZBMjXXs?si=EY9AcDr02F4ABOtE"]
+    },
+    {
+        path: "img/2026/04/2026_04_07_4.png",
+        date: "2026-04-07",
+        tags: ["Game Dev", "Miusoft"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_07_3.png",
+        date: "2026-04-07",
+        tags: ["Game Dev", "Miu Plays", "Games"],
+        notes: "",
+        links: ["https://youtu.be/zGtrhxfF6aY?si=XBvZQquVCRtLSyO7"]
+    },
+    {
+        path: "img/2026/04/2026_04_07_2.png",
+        date: "2026-04-07",
+        tags: ["M Entertainment"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_07_1.png",
+        date: "2026-04-07",
+        tags: ["Godot Sensei", "Godot"],
+        notes: "",
+        links: []
+    },
     {
         path: "img/2026/04/2026_04_06_2.png",
         date: "2026-04-06",
