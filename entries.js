@@ -23,6 +23,41 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/04/2026_04_09_5.png",
+        date: "2026-04-09",
+        tags: ["Godot", "Yoo Game Art"],
+        notes: "",
+        links: ["https://yoogameart.itch.io/bird-flyer-godot"]
+    },
+    {
+        path: "img/2026/04/2026_04_09_4.png",
+        date: "2026-04-09",
+        tags: ["Life", "Facebook"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_09_3.png",
+        date: "2026-04-09",
+        tags: ["Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_09_2.png",
+        date: "2026-04-09",
+        tags: ["Game Dev", "Miusoft", "Playstore", "prasino"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_09_1.png",
+        date: "2026-04-09",
+        tags: ["Game Dev", "Miusoft", "Playstore", "prasino"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/04/2026_04_08_1.png",
         date: "2026-04-08",
         tags: ["Game Dev", "Miusoft", "Prasino"],
