@@ -22,7 +22,14 @@ const tagGroups = {
 };
 
 const entries = [
-        {
+    {
+        path: "img/2026/04/2026_04_08_1.png",
+        date: "2026-04-08",
+        tags: ["Game Dev", "Miusoft", "Prasino"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/04/2026_04_07_8.png",
         date: "2026-04-07",
         tags: ["Game Dev", "Miu Plays", "Games"],
