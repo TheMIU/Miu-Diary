@@ -23,6 +23,34 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/04/2026_04_12_4.png",
+        date: "2026-04-12",
+        tags: ["Life", "Old"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_12_3.png",
+        date: "2026-04-12",
+        tags: ["Godot", "Miusoft", "Marketing"],
+        notes: "",
+        links: ["https://www.instagram.com/p/DXCVvj7j3Yl/"]
+    },
+    {
+        path: "img/2026/04/2026_04_12_2.png",
+        date: "2026-04-12",
+        tags: ["Game Dev", "Godot", "Godot Sensei", "Godot Sinhala"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_12_1.png",
+        date: "2026-04-12",
+        tags: ["Yoo Game Art", "Website"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/04/2026_04_11_2.png",
         date: "2026-04-11",
         tags: ["Miusoft", "Game Dev"],
