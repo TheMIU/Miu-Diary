@@ -23,6 +23,20 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/04/2026_04_13_2.png",
+        date: "2026-04-13",
+        tags: ["Godot", "Miusoft", "Flappy rooster"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_13_1.png",
+        date: "2026-04-13",
+        tags: ["Godot Sensei"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/04/2026_04_12_4.png",
         date: "2026-04-12",
         tags: ["Life", "Old"],
