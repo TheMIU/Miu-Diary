@@ -23,6 +23,20 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/04/2026_04_14_2.png",
+        date: "2026-04-14",
+        tags: ["Miusoft", "Post", "Tools"],
+        notes: "",
+        links: ["https://www.tiktok.com/@miusoftgames/video/7628431452849392917"]
+    },
+    {
+        path: "img/2026/04/2026_04_14_1.png",
+        date: "2026-04-14",
+        tags: ["Life"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/04/2026_04_13_2.png",
         date: "2026-04-13",
         tags: ["Godot", "Miusoft", "Flappy rooster"],
