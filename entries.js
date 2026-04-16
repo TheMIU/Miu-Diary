@@ -23,6 +23,13 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/04/2026_04_15.png",
+        date: "2026-04-16",
+        tags: ["Life", "Godot Sensei"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/04/2026_04_14_2.png",
         date: "2026-04-14",
         tags: ["Miusoft", "Post", "Tools"],
