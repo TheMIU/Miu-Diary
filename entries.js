@@ -23,6 +23,20 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/04/2026_04_16_2.png",
+        date: "2026-04-16",
+        tags: ["Stocks"],
+        notes: "",
+        links: ["https://www.vecteezy.com/members/kasun_miuranga"]
+    },
+    {
+        path: "img/2026/04/2026_04_16_1.png",
+        date: "2026-04-16",
+        tags: ["Yoo Game Art"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/04/2026_04_15.png",
         date: "2026-04-16",
         tags: ["Life", "Godot Sensei"],
