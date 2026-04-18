@@ -23,6 +23,55 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/04/2026_04_17_7.png",
+        date: "2026-04-17",
+        tags: ["Godot Sensei", "Godot", "Godot Sinhala"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_17_6.png",
+        date: "2026-04-17",
+        tags: ["Game ideas", "Game Dev"],
+        notes: "",
+        links: ["https://www.linkedin.com/posts/molotkovsavva_an-old-hockey-game-prototype-focused-on-experimenting-activity-7450116160563503104-i3Z8?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADM6alUBTddY3HSzUytLibqK6lajxFZyPKM"]
+    },
+    {
+        path: "img/2026/04/2026_04_17_5.png",
+        date: "2026-04-17",
+        tags: ["Characters", "Art"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_17_4.png",
+        date: "2026-04-17",
+        tags: ["Game ideas", "Game Dev"],
+        notes: "Educational games ",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_17_3.png",
+        date: "2026-04-17",
+        tags: ["Game ideas", "Game Dev"],
+        notes: "Modular shooter, random level generate",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_17_2.png",
+        date: "2026-04-17",
+        tags: ["Game ideas", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_17_1.png",
+        date: "2026-04-17",
+        tags: ["Game Dev", "Miusoft", "Playstore", "Prasino"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/04/2026_04_16_2.png",
         date: "2026-04-16",
         tags: ["Stocks"],
