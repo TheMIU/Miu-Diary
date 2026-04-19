@@ -23,6 +23,20 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/04/2026_04_18_2.png",
+        date: "2026-04-18",
+        tags: ["Godot Sensei", "Youtube"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_18_1.png",
+        date: "2026-04-18",
+        tags: ["Godot", "Game Dev", "Android"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/04/2026_04_17_7.png",
         date: "2026-04-17",
         tags: ["Godot Sensei", "Godot", "Godot Sinhala"],
