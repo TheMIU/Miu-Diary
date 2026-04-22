@@ -23,6 +23,41 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/04/2026_04_22_5.png",
+        date: "2026-04-22",
+        tags: ["Fiverr", "Freelance", "Yoo Game Art"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_22_4.png",
+        date: "2026-04-22",
+        tags: ["Fiverr", "Freelance"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_22_3.png",
+        date: "2026-04-22",
+        tags: ["Fiverr", "Freelance", "Yoo Game Art"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_22_2.png",
+        date: "2026-04-22",
+        tags: ["Godot", "Freelance", "Fiverr", "Tools"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_22_1.png",
+        date: "2026-04-22",
+        tags: ["Fiverr", "Freelance", "Yoo Game Art"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/04/2026_04_20_1.png",
         date: "2026-04-20",
         tags: ["Freelance", "Fiverr", "Yoo Game Art"],
