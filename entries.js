@@ -22,6 +22,20 @@ const tagGroups = {
 };
 
 const entries = [
+        {
+        path: "img/2026/04/2026_04_23_2.png",
+        date: "2026-04-23",
+        tags: ["Life"],
+        notes: "",
+        links: ["https://play.google.com/store/apps/details?id=app.olauncher&hl=en"]
+    },
+    {
+        path: "img/2026/04/2026_04_23_1.png",
+        date: "2026-04-23",
+        tags: ["Life", "Tools", "Github"],
+        notes: "",
+        links: []
+    },
     {
         path: "img/2026/04/2026_04_22_5.png",
         date: "2026-04-22",
