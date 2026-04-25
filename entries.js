@@ -23,6 +23,34 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/04/2026_04_25_4.png",
+        date: "2026-04-25",
+        tags: ["Life", "Instagram"],
+        notes: "",
+        links: ["https://www.instagram.com/p/DXjXubPjccs/"]
+    },
+    {
+        path: "img/2026/04/2026_04_25_3.png",
+        date: "2026-04-25",
+        tags: ["Miu Plays"],
+        notes: "",
+        links: ["https://youtu.be/u2vNDziHiM4?si=fjo-K1e3JE77Qa4y"]
+    },
+    {
+        path: "img/2026/04/2026_04_25_2.png",
+        date: "2026-04-25",
+        tags: ["Miu Farming Days"],
+        notes: "",
+        links: ["https://youtube.com/shorts/c9gbao2m6hA?si=HhNUAisqZSYFlRsH"]
+    },
+    {
+        path: "img/2026/04/2026_04_25_1.png",
+        date: "2026-04-25",
+        tags: ["Life", "Motivation"],
+        notes: "",
+        links: ["https://web.facebook.com/reel/744632331117171"]
+    },
+    {
         path: "img/2026/04/2026_04_24_4.png",
         date: "2026-04-24",
         tags: ["Godot Sensei", "Godot sinhala", "Tools"],
