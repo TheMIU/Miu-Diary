@@ -22,7 +22,35 @@ const tagGroups = {
 };
 
 const entries = [
-        {
+    {
+        path: "img/2026/04/2026_04_24_4.png",
+        date: "2026-04-24",
+        tags: ["Godot Sensei", "Godot sinhala", "Tools"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_24_3.png",
+        date: "2026-04-24",
+        tags: ["Godot", "Android", "Mobile"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_24_2.png",
+        date: "2026-04-24",
+        tags: ["Godot", "Android", "Mobile"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/04/2026_04_24_1.png",
+        date: "2026-04-24",
+        tags: ["Miu Plays"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/04/2026_04_23_2.png",
         date: "2026-04-23",
         tags: ["Life"],
