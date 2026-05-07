@@ -23,6 +23,27 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/05/2026_05_07_3.png",
+        date: "2026-05-07",
+        tags: ["Ai", "ChatGPT", "Art"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_07_2.png",
+        date: "2026-05-07",
+        tags: ["Game Dev", "Unity"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_07_1.png",
+        date: "2026-05-07",
+        tags: ["Art", "Life", "Miu Craft"],
+        notes: "",
+        links: ["https://www.youtube.com/@miucraft7559"]
+    },
+    {
         path: "img/2026/05/2026_05_06_2.png",
         date: "2026-05-06",
         tags: ["Game Dev", "Unity"],
