@@ -22,6 +22,20 @@ const tagGroups = {
 };
 
 const entries = [
+        {
+        path: "img/2026/05/2026_05_08_2.png",
+        date: "2026-05-08",
+        tags: ["Art", "USKGalle", "Website"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_08_1.png",
+        date: "2026-05-08",
+        tags: ["Game Dev", "Unity", "Claude"],
+        notes: "",
+        links: []
+    },
     {
         path: "img/2026/05/2026_05_07_3.png",
         date: "2026-05-07",
