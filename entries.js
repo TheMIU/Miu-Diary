@@ -22,7 +22,21 @@ const tagGroups = {
 };
 
 const entries = [
-        {
+    {
+        path: "img/2026/05/2026_05_09_2.png",
+        date: "2026-05-09",
+        tags: ["Godot Sensei", "Godot Sinhala"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_09_1.png",
+        date: "2026-05-09",
+        tags: ["Game Dev", "Unity"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/05/2026_05_08_2.png",
         date: "2026-05-08",
         tags: ["Art", "USKGalle", "Website"],
