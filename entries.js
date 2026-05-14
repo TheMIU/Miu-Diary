@@ -22,7 +22,28 @@ const tagGroups = {
 };
 
 const entries = [
-        {
+    {
+        path: "img/2026/05/2026_05_13_2.png",
+        date: "2026-05-13",
+        tags: ["Unity", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_13_1.png",
+        date: "2026-05-13",
+        tags: ["Life"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_12_2.png",
+        date: "2026-05-12",
+        tags: ["USK Galle", "Art", "Instagram"],
+        notes: "",
+        links: ["https://www.instagram.com/p/DYOSLm1jMny/?img_index=1"]
+    },
+    {
         path: "img/2026/05/2026_05_12_1.png",
         date: "2026-05-12",
         tags: ["Life"],
