@@ -23,6 +23,27 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/05/2026_05_14_3.png",
+        date: "2026-05-14",
+        tags: ["Godot Sensei", "Godot Sinhala"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_14_2.png",
+        date: "2026-05-14",
+        tags: ["Game Dev", "Unity"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_14_1.png",
+        date: "2026-05-14",
+        tags: ["Game Dev", "Game Jam"],
+        notes: "",
+        links: ["https://www.youtube.com/post/UgkxA2JnLHE2pqT7bODBTew8Tzx_BHeyEHh9"]
+    },
+    {
         path: "img/2026/05/2026_05_13_2.png",
         date: "2026-05-13",
         tags: ["Unity", "Game Dev"],
