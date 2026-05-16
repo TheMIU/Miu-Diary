@@ -23,6 +23,27 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/05/2026_05_15_3.png",
+        date: "2026-05-15",
+        tags: ["Umity", "Game Dev"],
+        notes: "",
+        links: ["https://www.youtube.com/watch?v=YigaMVrMqz4"]
+    },
+    {
+        path: "img/2026/05/2026_05_15_2.png",
+        date: "2026-05-15",
+        tags: ["Tools", "Blender", "Art"],
+        notes: "",
+        links: ["https://www.youtube.com/watch?v=eug3NGpmv-0"]
+    },
+    {
+        path: "img/2026/05/2026_05_15_1.png",
+        date: "2026-05-15",
+        tags: ["Tools", "Ai", "Gemini"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/05/2026_05_14_3.png",
         date: "2026-05-14",
         tags: ["Godot Sensei", "Godot Sinhala"],
