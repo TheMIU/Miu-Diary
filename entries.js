@@ -8,20 +8,40 @@
 //  links — array of URLs (optional, leave [] if none)
 // ============================================================
 
-/*     {
-        path: "img/2026/03/2026_03_29_1.png",
-        date: "2026-03-29",
-        tags: [],
-        notes: "",
-        links: []
-}, */
-
 const tagGroups = {
     "Work": ["Miusoft", "Yoo Game Art", "Godot Sensei", "Freelance", "Marketing"],
     "Other": ["Life", "Tools", "Blender", "Godot", "Art", "Miu Plays", "M Entertainment", "Film"]
 };
 
 const entries = [
+    {
+        path: "img/2026/05/2026_05_16_4.png",
+        date: "2026-05-16",
+        tags: ["Film", "M Entertainment"],
+        notes: "",
+        links: ["https://www.youtube.com/post/Ugkx_4kWNSgwraa_LxnBWZkGwoQvppYrDzwr"]
+    },
+    {
+        path: "img/2026/05/2026_05_16_3.png",
+        date: "2026-05-16",
+        tags: ["Fonts", "Game Dev", "Graphic Design"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_16_2.png",
+        date: "2026-05-16",
+        tags: ["Web Dev", "Claude"],
+        notes: "",
+        links: ["https://artbypravi.github.io/"]
+    },
+    {
+        path: "img/2026/05/2026_05_16_1.png",
+        date: "2026-05-16",
+        tags: ["Tools", "Film"],
+        notes: "",
+        links: []
+    },
     {
         path: "img/2026/05/2026_05_15_3.png",
         date: "2026-05-15",
