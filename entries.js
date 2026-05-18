@@ -15,6 +15,48 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/05/2026_05_17_6.png",
+        date: "2026-05-17",
+        tags: ["Web Dev", "USK Galle"],
+        notes: "",
+        links: ["https://uskgalle.github.io/"]
+    },
+    {
+        path: "img/2026/05/2026_05_17_5.png",
+        date: "2026-05-17",
+        tags: ["Miu Plays"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_17_4.png",
+        date: "2026-05-17",
+        tags: ["Life", "Graphic Design", "Facebook"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_17_3.png",
+        date: "2026-05-17",
+        tags: ["Facebook", "Life"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_17_2.png",
+        date: "2026-05-17",
+        tags: ["Life", "Film"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_17_1.png",
+        date: "2026-05-17",
+        tags: ["Web Dev", "USK Galle"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/05/2026_05_16_4.png",
         date: "2026-05-16",
         tags: ["Film", "M Entertainment"],
