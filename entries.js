@@ -15,6 +15,20 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/05/2026_05_18_2.png",
+        date: "2026-05-18",
+        tags: ["Tools"],
+        notes: "",
+        links: ["https://piellardj.github.io/stereogram-solver/", "https://www.easystereogrambuilder.com/"]
+    },
+    {
+        path: "img/2026/05/2026_05_18_1.png",
+        date: "2026-05-18",
+        tags: ["Facebook", "Tools"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/05/2026_05_17_6.png",
         date: "2026-05-17",
         tags: ["Web Dev", "USK Galle"],
