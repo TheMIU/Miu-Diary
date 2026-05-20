@@ -14,6 +14,13 @@ const tagGroups = {
 };
 
 const entries = [
+        {
+        path: "img/2026/05/2026_05_19_1.png",
+        date: "2026-05-19",
+        tags: ["Miusoft", "Graphic Design"],
+        notes: "",
+        links: []
+    },
     {
         path: "img/2026/05/2026_05_18_2.png",
         date: "2026-05-18",
