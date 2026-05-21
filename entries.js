@@ -14,7 +14,35 @@ const tagGroups = {
 };
 
 const entries = [
-        {
+    {
+        path: "img/2026/05/2026_05_20_4.png",
+        date: "2026-05-20",
+        tags: ["Game Dev", "Godot", "Game Assets"],
+        notes: "",
+        links: ["https://github.com/dip000/my-godotshaders"]
+    },
+    {
+        path: "img/2026/05/2026_05_20_3.png",
+        date: "2026-05-20",
+        tags: ["Godot", "Godot Sensei", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_20_2.png",
+        date: "2026-05-20",
+        tags: ["Godot Sensei", "Godot", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_20_1.png",
+        date: "2026-05-20",
+        tags: ["Godot Sensei", "Godot", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/05/2026_05_19_1.png",
         date: "2026-05-19",
         tags: ["Miusoft", "Graphic Design"],
