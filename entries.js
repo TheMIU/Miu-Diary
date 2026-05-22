@@ -15,6 +15,20 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/05/2026_05_21_2.png",
+        date: "2026-05-21",
+        tags: ["Unity", "Game Dev"],
+        notes: "",
+        links: ["https://www.youtube.com/watch?v=pe4_Dimk7v0", "https://github.com/mjholtzem/Unity-2D-Destruction"]
+    },
+    {
+        path: "img/2026/05/2026_05_21_1.png",
+        date: "2026-05-21",
+        tags: ["Game Dev", "Godot", "Game Jam"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/05/2026_05_20_4.png",
         date: "2026-05-20",
         tags: ["Game Dev", "Godot", "Game Assets"],
