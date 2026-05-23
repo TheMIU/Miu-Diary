@@ -15,6 +15,27 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/05/2026_05_22_3.png",
+        date: "2026-05-22",
+        tags: ["Game Dev", "Godot", "Godot Sensei"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_22_2.png",
+        date: "2026-05-22",
+        tags: ["Game Dev", "Books"],
+        notes: "",
+        links: ["https://www.shell-method.com/"]
+    },
+    {
+        path: "img/2026/05/2026_05_22_1.png",
+        date: "2026-05-22",
+        tags: ["Game Dev", "Web Dev", "Ideas"],
+        notes: "",
+        links: ["https://koval.games/index.html"]
+    },
+    {
         path: "img/2026/05/2026_05_21_2.png",
         date: "2026-05-21",
         tags: ["Unity", "Game Dev"],
