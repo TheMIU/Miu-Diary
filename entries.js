@@ -15,6 +15,20 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/05/2026_05_25_2.png",
+        date: "2026-05-25",
+        tags: ["Game Ideas", "Game Dev", "Game Jam", "Godot"],
+        notes: "",
+        links: ["https://itch.io/jam/gamedevtv-jam-2026/rate/4610511"]
+    },
+    {
+        path: "img/2026/05/2026_05_25_1.png",
+        date: "2026-05-25",
+        tags: ["Life", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/05/2026_05_22_3.png",
         date: "2026-05-22",
         tags: ["Game Dev", "Godot", "Godot Sensei"],
