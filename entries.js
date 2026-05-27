@@ -15,6 +15,27 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/05/2026_05_26_3.png",
+        date: "2026-05-26",
+        tags: ["ChatGPT", "Art", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_26_2.png",
+        date: "2026-05-26",
+        tags: ["Game Dev", "Art", "Game Assets"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_26_1.png",
+        date: "2026-05-26",
+        tags: ["Game Jam", "Godot", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/05/2026_05_25_2.png",
         date: "2026-05-25",
         tags: ["Game Ideas", "Game Dev", "Game Jam", "Godot"],
