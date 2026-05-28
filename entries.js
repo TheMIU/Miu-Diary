@@ -15,6 +15,27 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/05/2026_05_27_3.png",
+        date: "2026-05-27",
+        tags: ["ChatGPT", "Game Assets", "Art"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_27_2.png",
+        date: "2026-05-27",
+        tags: ["Game Assets", "Tools", "Unity"],
+        notes: "",
+        links: ["https://www.finalparsec.com/tools/sprite_sheet_maker"]
+    },
+    {
+        path: "img/2026/05/2026_05_27_1.png",
+        date: "2026-05-27",
+        tags: ["USK Galle", "Art", "Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/05/2026_05_26_3.png",
         date: "2026-05-26",
         tags: ["ChatGPT", "Art", "Game Dev"],
