@@ -1,19 +1,23 @@
-// ============================================================
-//  ADD YOUR ENTRIES HERE
-//
-//  path  — relative to this HTML file
-//  date  — "YYYY-MM-DD"
-//  tags  — array of strings
-//  notes — string (optional, leave "" if none)
-//  links — array of URLs (optional, leave [] if none)
-// ============================================================
-
 const tagGroups = {
     "Work": ["Miusoft", "Yoo Game Art", "Godot Sensei", "Freelance", "Marketing"],
     "Other": ["Life", "Tools", "Blender", "Godot", "Art", "Miu Plays", "M Entertainment", "Film"]
 };
 
 const entries = [
+    {
+        path: "img/2026/05/2026_05_28_2.png",
+        date: "2026-05-28",
+        tags: ["USK Galle", "Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_28_1.png",
+        date: "2026-05-28",
+        tags: ["Life"],
+        notes: "",
+        links: ["https://www.instagram.com/p/DVpXmsyjBih/"]
+    },
     {
         path: "img/2026/05/2026_05_27_3.png",
         date: "2026-05-27",
