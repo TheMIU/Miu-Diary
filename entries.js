@@ -5,6 +5,27 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/05/2026_05_29_3.png",
+        date: "2026-05-29",
+        tags: ["USK Galle", "Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_29_2.png",
+        date: "2026-05-29",
+        tags: ["Game Dev", "Godot", "VFX"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_29_1.png",
+        date: "2026-05-29",
+        tags: ["Yoo Game Art"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/05/2026_05_28_2.png",
         date: "2026-05-28",
         tags: ["USK Galle", "Web Dev"],
