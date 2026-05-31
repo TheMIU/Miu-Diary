@@ -4,6 +4,13 @@ const tagGroups = {
 };
 
 const entries = [
+        {
+        path: "img/2026/05/2026_05_30_1.png",
+        date: "2026-05-30",
+        tags: ["Miusoft", "Game Dev"],
+        notes: "",
+        links: []
+    },
     {
         path: "img/2026/05/2026_05_29_3.png",
         date: "2026-05-29",
