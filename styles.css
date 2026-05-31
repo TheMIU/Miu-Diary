@@ -178,11 +178,12 @@ header {
 }
 
 .nav-year-label {
-    font-size: 11px;
-    color: #bbb;
-    letter-spacing: 0.05em;
+    font-size: 13px;
+    color: #aaa;
+    letter-spacing: 0;
     margin-bottom: 4px;
-    padding-left: 1.25rem;
+    padding: 8px 1.25rem;
+    font-weight: 300;
 }
 
 .nav-month {
@@ -533,8 +534,25 @@ header {
     background: #ccc;
 }
 
+#month-nav-mobile .nav-month,
+#month-nav .nav-month {
+    padding: 7px 1.25rem;
+}
+
+#month-nav-mobile .nav-year-label,
+#month-nav .nav-year-label {
+    padding-left: 1.25rem;
+    margin-bottom: 6px;
+    margin-top: 1rem;
+}
+
+#month-nav-mobile .nav-year:first-child .nav-year-label,
+#month-nav .nav-year:first-child .nav-year-label {
+    margin-top: 0;
+}
+
 /* lightbox */
-/* lightbox backdrop — blurred */
+/* ── LIGHTBOX ────────────────────────────────────────── */
 #lb {
     display: none;
     position: fixed;
@@ -553,11 +571,10 @@ header {
 
 #lb-inner {
     display: flex;
-    gap: 2rem;
-    align-items: flex-start;
-    max-width: 1000px;
-    width: calc(100% - 4rem);
-    max-height: 90vh;
+    align-items: stretch;
+    width: calc(100% - 6rem);
+    max-width: 1200px;
+    height: calc(100vh - 4rem);
     background: #fafaf8;
     border: 1px solid #e8e8e5;
     border-radius: 8px;
@@ -566,21 +583,21 @@ header {
 }
 
 #lb-img {
-    width: min(55vw, 600px);
-    min-width: min(55vw, 600px);
-    max-height: 90vh;
-    object-fit: cover;
+    width: 65%;
+    min-width: 65%;
+    height: 100%;
+    object-fit: contain;
     display: block;
     flex-shrink: 0;
+    background: #f0efeb;
 }
 
 #lb-info {
     flex: 1;
-    padding: 1.75rem 1.75rem 1.75rem 0;
+    padding: 2rem;
     overflow-y: auto;
-    max-height: 90vh;
+    border-left: 1px solid #e8e8e5;
 }
-
 
 #lb-date {
     font-family: 'Instrument Serif', serif;
@@ -643,8 +660,6 @@ header {
     text-decoration: underline;
 }
 
-
-/* close button — inside the card, top right */
 #lb-close {
     position: absolute;
     top: 0.75rem;
@@ -668,89 +683,6 @@ header {
     border-color: #aaa;
 }
 
-
-/* mobile bottom nav bar */
-#lb-mobile-nav {
-    display: none;
-}
-
-@media (max-width: 768px) {
-
-    /*     #lb-inner {
-        flex-direction: column;
-        width: 100%;
-        max-width: 100%;
-        height: 100dvh;
-        border-radius: 0;
-        border: none;
-        padding-bottom: 60px;
-    }
-
-    #lb-img {
-        width: 100%;
-        min-width: unset;
-        height: 55vw;
-        min-height: 55vw;
-        max-height: 55vw;
-        object-fit: cover;
-        flex-shrink: 0;
-    }
- */
-    #lb-info {
-        flex: 1;
-        padding: 1.25rem;
-        border-left: none;
-        border-top: 1px solid #e8e8e5;
-        overflow-y: auto;
-        width: 100%;
-    }
-
-    /* hide desktop arrows and close on mobile */
-    .arr {
-        display: none;
-    }
-
-    #lb-close {
-        display: none;
-    }
-
-    /* bottom nav bar */
-    #lb-mobile-nav {
-        display: flex;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 56px;
-        background: #fafaf8;
-        border-top: 1px solid #e8e8e5;
-        z-index: 110;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 1.5rem;
-    }
-
-    #lb-mobile-nav button {
-        background: none;
-        border: 1px solid #e0e0db;
-        border-radius: 4px;
-        width: 40px;
-        height: 36px;
-        font-size: 20px;
-        cursor: pointer;
-        color: #888;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: inherit;
-    }
-
-    #lb-mobile-nav button:active {
-        background: #f0efeb;
-    }
-}
-
-/* arrows — close to the card edges */
 .arr {
     position: fixed;
     top: 50%;
@@ -776,165 +708,34 @@ header {
 }
 
 #lb-prev {
-    left: calc(50% - 500px - 3rem);
+    left: 1rem;
 }
 
 #lb-next {
-    right: calc(50% - 500px - 3rem);
+    right: 1rem;
 }
 
-/* mobile */
-@media (max-width: 768px) {
-    #lb-inner {
-        flex-direction: column;
-        width: 100%;
-        max-width: 100%;
-        max-height: 100dvh;
-        height: 100dvh;
-        border-radius: 0;
-        border: none;
-        overflow-y: auto;
-    }
-
-    #lb-img {
-        width: 100%;
-        min-width: unset;
-        max-height: 55vw;
-        object-fit: cover;
-    }
-
-    #lb-info {
-        padding: 1rem 1.25rem 5rem;
-        max-height: unset;
-        overflow-y: visible;
-    }
-
-    /* arrows back on mobile, inside the image area */
-    #lb {
-        align-items: flex-start;
-    }
-
-    .arr {
-        position: fixed;
-        top: calc(55vw / 2);
-        transform: translateY(-50%);
-        background: rgba(250, 250, 248, 0.85);
-        border: 1px solid #e0e0db;
-        border-radius: 4px;
-        width: 36px;
-        height: 36px;
-        font-size: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 200;
-        /* above everything */
-        cursor: pointer;
-        color: #888;
-    }
-
-    #lb-prev {
-        left: 0.75rem;
-    }
-
-    #lb-next {
-        right: 0.75rem;
-    }
+#lb-mobile-nav {
+    display: none;
 }
 
-/* ── MOBILE ─────────────────────────────────────────── */
+/* ── MOBILE ──────────────────────────────────────────── */
 @media (max-width: 768px) {
 
+    /* header */
     header {
         padding: 0 1rem;
-        gap: 8px;
     }
 
     #tag-search {
         width: 130px;
     }
 
-    /* sidebar becomes a horizontal scrolling strip at the top */
+    /* layout */
     #layout {
-        flex-direction: column;
-        padding: 1rem;
-        gap: 0;
+        padding: 1.5rem 1rem;
     }
 
-    #sidebar {
-        width: 100%;
-        min-width: unset;
-        position: static;
-        overflow-x: auto;
-        padding-bottom: 0.75rem;
-        margin-bottom: 1rem;
-        border-bottom: 1px solid #e8e8e5;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    /* years stack horizontally */
-    #month-nav {
-        display: flex;
-        flex-direction: row;
-        gap: 1.5rem;
-        width: max-content;
-    }
-
-    .nav-year {
-        margin-bottom: 0;
-    }
-
-    .nav-year-label {
-        margin-bottom: 4px;
-    }
-
-    /* months in a column under each year (compact) */
-    .nav-month {
-        white-space: nowrap;
-        padding: 3px 8px;
-    }
-
-    /* grid: 2 columns on phone */
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
-    }
-
-    /* month title above grid, not beside it */
-    .month-block {
-        flex-direction: column;
-        gap: 0.75rem;
-    }
-
-    .month-title {
-        width: auto;
-        min-width: unset;
-        text-align: left;
-        font-size: 18px;
-        padding-top: 0;
-    }
-
-    /* lightbox stacks on mobile (you already had this, keeping it) */
-    #lb-inner {
-        flex-direction: column;
-        overflow-y: auto;
-        max-height: 100dvh;
-        padding: 3rem 1rem 1rem;
-    }
-
-    #lb-img {
-        max-width: 100%;
-        max-height: 45vh;
-    }
-
-    .arr {
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-
-    /* hide desktop sidebar, show mobile panel button */
     #sidebar {
         display: none;
     }
@@ -943,18 +744,13 @@ header {
         display: flex;
     }
 
-    /* layout no longer needs sidebar gap */
-    #layout {
-        padding: 1.5rem 1rem;
-    }
-
-    /* grid: 2 columns */
+    /* grid */
     .grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 8px;
     }
 
-    /* month title above grid instead of beside */
+    /* month block */
     .month-block {
         flex-direction: column;
         gap: 0.75rem;
@@ -968,18 +764,93 @@ header {
         padding-top: 0;
     }
 
-    header {
-        padding: 0 1rem;
+    /* lightbox — full screen, image on top, info scrolls below */
+    #lb {
+        align-items: flex-start;
     }
 
-    #tag-search {
-        width: 130px;
+    #lb-inner {
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        height: 100dvh;
+        border-radius: 0;
+        border: none;
+        overflow: hidden;
+    }
+
+    #lb-img {
+        width: 100%;
+        min-width: unset;
+        height: auto;
+        max-height: 60dvh;
+        object-fit: contain;
+        flex-shrink: 0;
+        background: #f0efeb;
+    }
+
+    #lb-info {
+        flex: 1;
+        padding: 1.25rem;
+        border-left: none;
+        border-top: 1px solid #e8e8e5;
+        overflow-y: auto;
+        width: 100%;
+    }
+
+    /* hide desktop controls */
+    .arr {
+        display: none;
+    }
+
+    #lb-close {
+        display: none;
+    }
+
+    /* mobile bottom bar */
+    #lb-mobile-nav {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 56px;
+        background: #fafaf8;
+        border-top: 1px solid #e8e8e5;
+        z-index: 110;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+        flex-shrink: 0;
+    }
+
+    #lb-mobile-nav button {
+        background: none;
+        border: 1px solid #e0e0db;
+        border-radius: 4px;
+        width: 40px;
+        height: 36px;
+        font-size: 20px;
+        cursor: pointer;
+        color: #888;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: inherit;
+    }
+
+    #lb-mobile-nav button:active {
+        background: #f0efeb;
+    }
+
+    /* add padding so info doesn't hide behind bottom bar */
+    #lb-info {
+        padding-bottom: 70px;
     }
 }
 
+/* ── DESKTOP ONLY ────────────────────────────────────── */
 @media (min-width: 769px) {
-
-    /* hide mobile month panel button and overlays on desktop */
     #month-panel-btn {
         display: none;
     }
