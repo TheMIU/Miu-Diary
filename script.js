@@ -64,6 +64,23 @@ function getMonthKeys() {
     return keys; // newest first
 }
 
+function toggleMonthPanel() {
+    const panel = document.getElementById("month-panel");
+    if (panel.classList.contains("on")) {
+        closeMonthPanel();
+    } else {
+        panel.classList.add("on");
+        document.getElementById("month-panel-overlay").classList.add("on");
+        document.getElementById("month-panel-btn").classList.add("open");
+    }
+}
+
+function closeMonthPanel() {
+    document.getElementById("month-panel").classList.remove("on");
+    document.getElementById("month-panel-overlay").classList.remove("on");
+    document.getElementById("month-panel-btn").classList.remove("open");
+}
+
 // ── sidebar ──────────────────────────────────────────────
 function buildSidebar() {
     const nav = document.getElementById("month-nav");
@@ -77,7 +94,7 @@ function buildSidebar() {
         byYear[year][month]++;
     });
 
-    nav.innerHTML = Object.keys(byYear).sort().reverse().map(year => {
+    const html = Object.keys(byYear).sort().reverse().map(year => {
         const months = Object.keys(byYear[year]).sort().reverse();
         return `<div class="nav-year">
             <div class="nav-year-label">${year}</div>
@@ -91,11 +108,19 @@ function buildSidebar() {
         }).join("")}
         </div>`;
     }).join("");
+
+    // desktop sidebar
+    nav.innerHTML = html;
+
+    // mobile panel — sync the same html if element exists
+    const mobileNav = document.getElementById("month-nav-mobile");
+    if (mobileNav) mobileNav.innerHTML = html;
 }
 
 function goToMonth(key) {
     currentMonthKey = key;
     window.scrollTo(0, 0);
+    closeMonthPanel();
     render();
 }
 
@@ -126,7 +151,7 @@ function render() {
 
     const cards = filtered.map((e, i) => `
         <div class="card" onclick="openLb(${i})">
-            <img src="${e.path}" alt="" loading="lazy">
+            <img src="${e.path}" alt="" loading="lazy" onerror="this.src='img/NoImage.png'">
             <div class="card-foot">
                 <span class="card-day">${parseDate(e.date).day}</span>
                 <div class="card-dots">${(e.tags || []).map(() => `<span class="dot"></span>`).join("")}</div>
@@ -167,6 +192,7 @@ function openLb(i) {
     currentIdx = i;
     const e = filtered[i];
     document.getElementById("lb-img").src = e.path;
+    document.getElementById("lb-img").onerror = function () { this.src = 'img/NoImage.png'; };
     document.getElementById("lb-date").textContent = formatDate(e.date);
     document.getElementById("lb-file").textContent = e.path.split("/").pop();
     document.getElementById("lb-tags").innerHTML = (e.tags || []).map(t => `<span class="lb-tag">${t}</span>`).join("") || `<span style="color:#ccc">—</span>`;
@@ -258,7 +284,10 @@ document.addEventListener("keydown", e => {
         if (e.key === "ArrowRight") nav(-1);
         return;
     }
-    if (e.key === "Escape") closeTagPanel();
+    if (e.key === "Escape") {
+        closeTagPanel();
+        closeMonthPanel();
+    }
 });
 
 render();

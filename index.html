@@ -13,11 +13,24 @@
   <header>
     <div class="logo">Miu Diary</div>
     <div id="tag-filters">
-      <input id="tag-search" type="text" placeholder="search tags…" oninput="filterBySearch(this.value)" autocomplete="off">
+      <button id="month-panel-btn" onclick="toggleMonthPanel()" title="browse months">
+        <i style="font-size:13px">◷</i>
+      </button>
+      <input id="tag-search" type="text" placeholder="search tags…" oninput="filterBySearch(this.value)"
+        autocomplete="off">
       <button class="pill on" id="active-tag-pill">all</button>
       <button id="tag-panel-btn" onclick="toggleTagPanel()" title="browse tags">#</button>
     </div>
   </header>
+
+  <div id="month-panel-overlay" onclick="closeMonthPanel()"></div>
+  <div id="month-panel">
+    <div id="month-panel-header">
+      <span>months</span>
+      <button onclick="closeMonthPanel()">✕</button>
+    </div>
+    <div id="month-nav-mobile"></div>
+  </div>
 
   <!-- tag panel -->
   <div id="tag-panel-overlay" onclick="closeTagPanel()"></div>
@@ -59,6 +72,12 @@
           <div id="lb-links"></div>
         </div>
       </div>
+    </div>
+
+    <div id="lb-mobile-nav">
+        <button onclick="nav(1)">‹</button>
+        <button onclick="closeLb()">✕</button>
+        <button onclick="nav(-1)">›</button>
     </div>
   </div>
 
