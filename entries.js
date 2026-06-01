@@ -4,7 +4,28 @@ const tagGroups = {
 };
 
 const entries = [
-        {
+    {
+        path: "img/2026/05/2026_05_31_3.png",
+        date: "2026-05-31",
+        tags: ["Journal", "Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_31_2.png",
+        date: "2026-05-31",
+        tags: ["Journal"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/05/2026_05_31_1.png",
+        date: "2026-05-31",
+        tags: ["Life"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/05/2026_05_30_1.png",
         date: "2026-05-30",
         tags: ["Miusoft", "Game Dev"],
