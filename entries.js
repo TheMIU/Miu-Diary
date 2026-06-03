@@ -5,6 +5,34 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/06/2026_06_02_4.png",
+        date: "2026-06-02",
+        tags: ["Miu Plays", "Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/06/2026_06_02_3.png",
+        date: "2026-06-02",
+        tags: ["Game Dev", "Godot", "Bus Game"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/06/2026_06_02_2.png",
+        date: "2026-06-02",
+        tags: ["Godot", "Game Dev", "Miusoft"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/06/2026_06_02_1.png",
+        date: "2026-06-02",
+        tags: ["Game Dev", "Blender"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/06/2026_06_01_1.png",
         date: "2026-06-01",
         tags: ["Facebook", "Marketing"],
