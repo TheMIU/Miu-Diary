@@ -5,6 +5,20 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/06/2026_06_04_2.png",
+        date: "2026-06-04",
+        tags: ["Web Dev", "USK Galle"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/06/2026_06_04_1.png",
+        date: "2026-06-04",
+        tags: ["Blender", "Animation"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/06/2026_06_02_4.png",
         date: "2026-06-02",
         tags: ["Miu Plays", "Web Dev"],
