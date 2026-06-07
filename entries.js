@@ -5,6 +5,27 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/06/2026_06_06_3.png",
+        date: "2026-06-06",
+        tags: ["Film", "M Entertainment"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/06/2026_06_06_2.png",
+        date: "2026-06-06",
+        tags: ["Blender", "Animation"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/06/2026_06_06_1.png",
+        date: "2026-06-06",
+        tags: ["Game Dev", "Graphic Design"],
+        notes: "",
+        links: ["https://web.facebook.com/share/p/1BEGwgja2c/"]
+    },
+    {
         path: "img/2026/06/2026_06_05_2.png",
         date: "2026-06-05",
         tags: ["Godot", "Youtube"],
