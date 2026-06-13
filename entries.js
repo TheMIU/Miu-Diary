@@ -4,6 +4,27 @@ const tagGroups = {
 };
 
 const entries = [
+        {
+        path: "img/2026/06/2026_06_12_3.png",
+        date: "2026-06-12",
+        tags: ["Godot", "Game Dev", "Text"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/06/2026_06_12_2.png",
+        date: "2026-06-12",
+        tags: ["Game Dev", "Godot"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/06/2026_06_12_1.png",
+        date: "2026-06-12",
+        tags: ["Godot Sensei", "Godot"],
+        notes: "",
+        links: []
+    },
     {
         path: "img/2026/06/2026_06_11_2.png",
         date: "2026-06-11",
