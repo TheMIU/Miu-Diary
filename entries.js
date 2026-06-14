@@ -4,7 +4,21 @@ const tagGroups = {
 };
 
 const entries = [
-        {
+    {
+        path: "img/2026/06/2026_06_13_2.png",
+        date: "2026-06-13",
+        tags: ["Unity", "Shaders"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/06/2026_06_13_1.png",
+        date: "2026-06-13",
+        tags: ["Unity"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/06/2026_06_12_3.png",
         date: "2026-06-12",
         tags: ["Godot", "Game Dev", "Text"],
