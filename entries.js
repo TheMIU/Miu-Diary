@@ -5,6 +5,20 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/06/2026_06_15_2.png",
+        date: "2026-06-15",
+        tags: ["Miu Plays", "Youtube"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/06/2026_06_15_1.png",
+        date: "2026-06-15",
+        tags: ["Game Dev", "Godot", "FeatherFly"],
+        notes: "",
+        links: ["https://miusoftgames.github.io/FeatherFly/"]
+    },
+    {
         path: "img/2026/06/2026_06_14_1.png",
         date: "2026-06-14",
         tags: ["Game Dev", "Godot", "FeatherFly"],
