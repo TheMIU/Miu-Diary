@@ -5,6 +5,13 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/06/2026_06_14_1.png",
+        date: "2026-06-14",
+        tags: ["Game Dev", "Godot", "FeatherFly"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/06/2026_06_13_2.png",
         date: "2026-06-13",
         tags: ["Unity", "Shaders"],
