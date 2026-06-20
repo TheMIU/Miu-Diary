@@ -5,6 +5,20 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/06/2026_06_19_2.png",
+        date: "2026-06-19",
+        tags: ["Motivation", "YouTube"],
+        notes: "",
+        links: ["https://www.youtube.com/@MyMotivationByMiu"]
+    },
+    {
+        path: "img/2026/06/2026_06_19_1.png",
+        date: "2026-06-19",
+        tags: ["Game Dev", "Godot"],
+        notes: "",
+        links: ["https://www.youtube.com/watch?v=ff5eNVhnSWQ"]
+    },
+    {
         path: "img/2026/06/2026_06_18_2.png",
         date: "2026-06-18",
         tags: ["YouTube", "Game Dev", "ChatGPT"],
