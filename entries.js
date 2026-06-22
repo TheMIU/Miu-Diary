@@ -5,6 +5,13 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/06/2026_06_22_1.png",
+        date: "2026-06-22",
+        tags: ["M Entertainment"],
+        notes: "",
+        links: ["https://youtube.com/playlist?list=PLBFTR8otL-ZVE2SnqF5ys7EaxGwIMlqx3&si=cEJ30MLokU0Q0n3b"]
+    },
+    {
         path: "img/2026/06/2026_06_20_3.png",
         date: "2026-06-20",
         tags: ["YouTube"],
