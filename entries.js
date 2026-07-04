@@ -5,6 +5,27 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/07/2026_07_04_1.png",
+        date: "2026-07-04",
+        tags: ["Instagram", "Life"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_03_1.png",
+        date: "2026-07-03",
+        tags: ["Tools"],
+        notes: "",
+        links: ["https://www.seedr.cc/"]
+    },
+    {
+        path: "img/2026/07/2026_07_02_3.png",
+        date: "2026-07-02",
+        tags: ["Game Assets"],
+        notes: "",
+        links: ["https://opengameart.org/content/hit-animation-frame-by-frame"]
+    },
+    {
         path: "img/2026/07/2026_07_02_2.png",
         date: "2026-07-02",
         tags: ["Tools"],
