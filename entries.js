@@ -5,6 +5,20 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/07/2026_07_08_2.png",
+        date: "2026-07-08",
+        tags: ["Unity", "Animation"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_08_1.png",
+        date: "2026-07-08",
+        tags: ["Journal"],
+        notes: "",
+        links: ["https://github.com/TheMIU/Miu-Diary", "https://themiu.github.io/Miu-Diary/"]
+    },
+    {
         path: "img/2026/07/2026_07_07_1.png",
         date: "2026-07-07",
         tags: ["Unity", "Game Dev", "Post Processing"],
