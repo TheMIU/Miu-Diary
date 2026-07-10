@@ -5,6 +5,20 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/07/2026_07_10_2.png",
+        date: "2026-07-10",
+        tags: ["Unity", "Instagram", "Game Dev"],
+        notes: "",
+        links: ["https://www.instagram.com/p/DanV86rPnDH/"]
+    },
+    {
+        path: "img/2026/07/2026_07_10_1.png",
+        date: "2026-07-10",
+        tags: ["Art", "Intro"],
+        notes: "",
+        links: ["https://www.youtube.com/watch?v=sfhgNXCVNDE"]
+    },
+    {
         path: "img/2026/07/2026_07_08_2.png",
         date: "2026-07-08",
         tags: ["Unity", "Animation"],
@@ -84,7 +98,7 @@ const entries = [
     {
         path: "img/2026/07/2026_07_02_1.png",
         date: "2026-07-02",
-        tags: [],
+        tags: ["Game Dev"],
         notes: "",
         links: ["https://youtu.be/AJdEqssNZ-U?si=w2bL_XbGKKgMbdfr"]
     },
