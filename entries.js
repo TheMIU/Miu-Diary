@@ -5,6 +5,20 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/07/2026_07_12_2.png",
+        date: "2026-07-12",
+        tags: ["M Entertainment"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_12_1.png",
+        date: "2026-07-12",
+        tags: ["Life", "Run For Coffee"],
+        notes: "",
+        links: ["https://www.instagram.com/stories/highlights/18087599717183851/"]
+    },
+    {
         path: "img/2026/07/2026_07_10_2.png",
         date: "2026-07-10",
         tags: ["Unity", "Instagram", "Game Dev"],
