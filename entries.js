@@ -5,6 +5,97 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/07/2026_07_16_3.png",
+        date: "2026-07-16",
+        tags: ["Tools"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_16_2.png",
+        date: "2026-07-16",
+        tags: ["Tools"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_16_1.png",
+        date: "2026-07-16",
+        tags: ["Unity", "Pivot"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_15_10.png",
+        date: "2026-07-15",
+        tags: ["Setup", "Blender", "Illustrator"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_15_9.png",
+        date: "2026-07-15",
+        tags: ["Life", "X"],
+        notes: "",
+        links: ["https://x.com/kasunmiu"]
+    },
+    {
+        path: "img/2026/07/2026_07_15_8.png",
+        date: "2026-07-15",
+        tags: ["Life"],
+        notes: "මේක ගොඩක් පරණ එකක්",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_15_7.png",
+        date: "2026-07-15",
+        tags: ["Life", "Game Dev", "Miniclip"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_15_6.png",
+        date: "2026-07-15",
+        tags: ["Motivation", "Quotes"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_15_5.png",
+        date: "2026-07-15",
+        tags: ["Graphic Design", "Shutterstock", "Life"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_15_4.png",
+        date: "2026-07-15",
+        tags: ["Life", "Game Dev", "Marketing"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_15_3.png",
+        date: "2026-07-15",
+        tags: ["Game Ideas", "Game Dev", "GDevelop"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_15_2.png",
+        date: "2026-07-15",
+        tags: ["Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_15_1.png",
+        date: "2026-07-15",
+        tags: ["Life"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/07/2026_07_12_2.png",
         date: "2026-07-12",
         tags: ["M Entertainment"],
