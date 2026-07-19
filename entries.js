@@ -5,6 +5,34 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/07/2026_07_19_3.png",
+        date: "2026-07-19",
+        tags: ["Godot Sensei", "YouTube", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_19_2.png",
+        date: "2026-07-19",
+        tags: ["Life", "Instagram", "Run"],
+        notes: "",
+        links: ["https://www.instagram.com/kasun.miu/"]
+    },
+    {
+        path: "img/2026/07/2026_07_19_1.png",
+        date: "2026-07-19",
+        tags: ["Life", "Instagram", "Run"],
+        notes: "",
+        links: ["https://www.instagram.com/kasun.miu/"]
+    },
+    {
+        path: "img/2026/07/2026_07_17_1.png",
+        date: "2026-07-17",
+        tags: ["Tools", "Tips", "Browser"],
+        notes: "",
+        links: ["brave://settings/content/all"]
+    },
+    {
         path: "img/2026/07/2026_07_16_3.png",
         date: "2026-07-16",
         tags: ["Tools"],
