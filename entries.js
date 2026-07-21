@@ -5,6 +5,34 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/07/2026_07_21_2.png",
+        date: "2026-07-21",
+        tags: ["YouTube", "Godot Sensei"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_21_1.png",
+        date: "2026-07-21",
+        tags: ["Godot Sensei", "YouTube"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_20_2.png",
+        date: "2026-07-20",
+        tags: ["Setup", "Life"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_20_1.png",
+        date: "2026-07-20",
+        tags: ["Journal", "Diary", "Life"],
+        notes: "",
+        links: ["https://x.com/kasunmiu"]
+    },
+    {
         path: "img/2026/07/2026_07_19_3.png",
         date: "2026-07-19",
         tags: ["Godot Sensei", "YouTube", "Game Dev"],
