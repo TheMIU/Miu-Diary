@@ -5,6 +5,48 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/07/2026_07_24_4.png",
+        date: "2026-07-24",
+        tags: ["M Entertainment", "Film"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_24_3.png",
+        date: "2026-07-24",
+        tags: ["Life", "Journal"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_24_2.png",
+        date: "2026-07-24",
+        tags: ["Miusoft", "Game Dev", "FeatherFly"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_24_1.png",
+        date: "2026-07-24",
+        tags: ["M Entertainment", "Film", "Facebook"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_23_2.png",
+        date: "2026-07-23",
+        tags: ["Motivation"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_23_1.png",
+        date: "2026-07-23",
+        tags: ["Game Dev", "Unity", "Godot"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/07/2026_07_21_2.png",
         date: "2026-07-21",
         tags: ["YouTube", "Godot Sensei"],
