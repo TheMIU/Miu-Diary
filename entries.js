@@ -5,6 +5,27 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/07/2026_07_25_3.png",
+        date: "2026-07-25",
+        tags: ["Art", "Urban Sketchers"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_25_2.png",
+        date: "2026-07-25",
+        tags: ["Game Dev", "Godot", "FeatherFly"],
+        notes: "https://web.facebook.com/reel/1036646375750914",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_25_1.png",
+        date: "2026-07-25",
+        tags: ["Blender", "Texture Paint"],
+        notes: "",
+        links: ["https://youtu.be/7kSRXnAi7uA?si=dvuQ7cLWJB3YlPd5"]
+    },
+    {
         path: "img/2026/07/2026_07_24_4.png",
         date: "2026-07-24",
         tags: ["M Entertainment", "Film"],
