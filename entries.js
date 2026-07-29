@@ -5,6 +5,27 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/07/2026_07_29_1.png",
+        date: "2026-07-29",
+        tags: ["Unity", "Game Assets"],
+        notes: "",
+        links: ["https://assetstore.unity.com/packages/vfx/shaders/urp-stylized-water-shader-proto-series-187485"]
+    },
+    {
+        path: "img/2026/07/2026_07_28_2.png",
+        date: "2026-07-28",
+        tags: ["Blender"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_28_1.png",
+        date: "2026-07-28",
+        tags: ["Godot", "FeatherFly", "Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/07/2026_07_26_1.png",
         date: "2026-07-26",
         tags: ["Life", "RFC"],
