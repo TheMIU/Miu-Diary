@@ -5,6 +5,62 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/08/2026_08_02_1.png",
+        date: "2026-08-02",
+        tags: ["RFC", "Life", "Travel"],
+        notes: "",
+        links: ["https://www.instagram.com/p/DbipQIdjRem/?img_index=1"]
+    },
+    {
+        path: "img/2026/08/2026_08_01_4.png",
+        date: "2026-08-01",
+        tags: ["YouTube"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_01_3.png",
+        date: "2026-08-01",
+        tags: ["BatMan", "M Entertainment"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_01_2.png",
+        date: "2026-08-01",
+        tags: ["Godot", "Game Dev"],
+        notes: "මේක වැඩ, Tested",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_01_1.png",
+        date: "2026-08-01",
+        tags: ["Antigravity", "Ai"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_31_4.png",
+        date: "2026-07-31",
+        tags: ["Godot", "Antigravity", "Ai"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_31_3.png",
+        date: "2026-07-31",
+        tags: ["Unity", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/07/2026_07_31_2.png",
+        date: "2026-07-31",
+        tags: ["Game Dev", "Learn"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/07/2026_07_31_1.png",
         date: "2026-07-31",
         tags: ["Animation", "Blender"],
