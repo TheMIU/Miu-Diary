@@ -5,6 +5,48 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/08/2026_08_05_2.png",
+        date: "2026-08-05",
+        tags: ["Journal", "Diary", "Web Dev", "Antigravity"],
+        notes: "",
+        links: ["https://themiu.github.io/Cookie-Jar-Diaries/"]
+    },
+    {
+        path: "img/2026/08/2026_08_05_1.png",
+        date: "2026-08-05",
+        tags: ["Animation", "Blender"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_04_2.png",
+        date: "2026-08-04",
+        tags: ["Animation", "Blender"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_04_1.png",
+        date: "2026-08-04",
+        tags: ["Animation", "Blender"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_03_2.png",
+        date: "2026-08-03",
+        tags: ["Game Dev", "Game Ideas", "Antigravity"],
+        notes: "",
+        links: ["https://slithergame.io/"]
+    },
+    {
+        path: "img/2026/08/2026_08_03_1.png",
+        date: "2026-08-03",
+        tags: ["Animation", "Blender"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/08/2026_08_02_1.png",
         date: "2026-08-02",
         tags: ["RFC", "Life", "Travel"],
