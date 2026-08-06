@@ -1,6 +1,9 @@
 const tagGroups = {
-    "Work": ["Miusoft", "Yoo Game Art", "Godot Sensei", "Freelance", "Marketing"],
-    "Other": ["Life", "Tools", "Blender", "Godot", "Art", "Miu Plays", "M Entertainment", "Film"]
+    "Projects & Work": ["Miusoft", "Godot Sensei", "Yoo Game Art", "M Entertainment", "Miu Plays", "FeatherFly", "Freelance"],
+    "Game Dev & Code": ["Game Dev", "Godot", "Unity", "Web Dev", "Ai", "Antigravity", "Tools"],
+    "Art & Animation": ["Blender", "Animation", "Art", "Game Assets", "Graphic Design", "Photoshop"],
+    "Media & Social": ["YouTube", "Film", "Instagram", "Facebook", "Marketing"],
+    "Life & Personal": ["Life", "Journal", "Motivation"]
 };
 
 const entries = [
