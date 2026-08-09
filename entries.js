@@ -8,6 +8,83 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/08/2026_08_09_1.png",
+        date: "2026-08-09",
+        tags: ["RFC"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_08_3.png",
+        date: "2026-08-08",
+        tags: ["USK Galle", "Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_08_2.png",
+        date: "2026-08-08",
+        tags: ["M Entertainment", "Film"],
+        notes: "",
+        links: ["http://youtube.com/post/Ugkx3_xahWv23CKr7FtTnMsWZAg89fnh1i78?si=vosJ76j8MC44T4aJ"]
+    },
+    {
+        path: "img/2026/08/2026_08_08_1.png",
+        date: "2026-08-08",
+        tags: ["FeatherFly", "Godot"],
+        notes: "",
+        links: ["https://miusoftgames.github.io/FeatherFly/results?player_name=john&score=3&levels_passed=1&max_level=2&character=Kukula&puzzles=1%2C2"]
+    },
+    {
+        path: "img/2026/08/2026_08_07_3.png",
+        date: "2026-08-07",
+        tags: ["Life", "Notes"],
+        notes: "මේ Diary එක හදන්නත් notes site එකෙන් idea එකක් ආවා. මොකද මට මේකෙන් පොඩි tips වගේ notes share කරන්න පුලුවන්.",
+        links: ["https://themiu.github.io/Notes/"]
+    },
+    {
+        path: "img/2026/08/2026_08_07_2.png",
+        date: "2026-08-07",
+        tags: ["Animation", "Blender"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_07_1.png",
+        date: "2026-08-07",
+        tags: ["Animation", "Blender"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_06_4.png",
+        date: "2026-08-06",
+        tags: ["Web Dev", "Antigravity"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_06_3.png",
+        date: "2026-08-06",
+        tags: ["Notes", "Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_06_2.png",
+        date: "2026-08-06",
+        tags: ["Game Dev", "Game Ideas", "Instagram"],
+        notes: "",
+        links: ["https://www.instagram.com/reels/DbQxP0KjZoD/"]
+    },
+    {
+        path: "img/2026/08/2026_08_06_1.png",
+        date: "2026-08-06",
+        tags: ["Life", "Journal", "Web Dev"],
+        notes: "",
+        links: ["https://cookiejardiaries.github.io/"]
+    },
+    {
         path: "img/2026/08/2026_08_05_2.png",
         date: "2026-08-05",
         tags: ["Journal", "Diary", "Web Dev", "Antigravity"],
