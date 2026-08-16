@@ -8,6 +8,83 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/08/2026_08_16_1.png",
+        date: "2026-08-16",
+        tags: ["RFC"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_15_2.png",
+        date: "2026-08-15",
+        tags: ["Miu Plays", "YouTube"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_15_1.png",
+        date: "2026-08-15",
+        tags: ["Film"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_14_4.png",
+        date: "2026-08-14",
+        tags: ["Life"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_14_3.png",
+        date: "2026-08-14",
+        tags: ["Life"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_14_2.png",
+        date: "2026-08-14",
+        tags: ["Life"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_14_1.png",
+        date: "2026-08-14",
+        tags: ["Life"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_13_2.png",
+        date: "2026-08-13",
+        tags: ["Antigravity", "Game Dev", "Godot"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_13_1.png",
+        date: "2026-08-13",
+        tags: ["Tools", "Antigravity"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_11_1.png",
+        date: "2026-08-11",
+        tags: ["Miu Plays", "YouTube"],
+        notes: "",
+        links: ["https://youtu.be/aHeYeHl6d2k"]
+    },
+    {
+        path: "img/2026/08/2026_08_10_1.png",
+        date: "2026-08-10",
+        tags: ["Blender", "Animation"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/08/2026_08_09_1.png",
         date: "2026-08-09",
         tags: ["RFC"],
