@@ -8,6 +8,132 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/08/2026_08_25_6.png",
+        date: "2026-08-25",
+        tags: ["USK Galle", "Art", "Web Dev"],
+        notes: "",
+        links: ["https://uskgalle.github.io/events/meet-up-04/register"]
+    },
+    {
+        path: "img/2026/08/2026_08_25_5.png",
+        date: "2026-08-25",
+        tags: ["Art", "Web Dev", "USK Galle", "Graphic Design"],
+        notes: "",
+        links: ["https://uskgalle.github.io/post"]
+    },
+    {
+        path: "img/2026/08/2026_08_25_4.png",
+        date: "2026-08-25",
+        tags: ["Game Dev", "Art", "ChatGPT", "Photoshop"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_25_3.png",
+        date: "2026-08-25",
+        tags: ["Journal", "Antigravity", "Rust", "Tauri"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_25_2.png",
+        date: "2026-08-25",
+        tags: ["RFC"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_25_1.png",
+        date: "2026-08-25",
+        tags: ["Life", "YouTube", "Godot"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_22_2.png",
+        date: "2026-08-22",
+        tags: ["Miu Plays"],
+        notes: "",
+        links: ["https://youtu.be/np0Tc41jYfc"]
+    },
+    {
+        path: "img/2026/08/2026_08_22_1.png",
+        date: "2026-08-22",
+        tags: ["YouTube", "Godot", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_21_5.png",
+        date: "2026-08-21",
+        tags: ["M Entertainment", "Film"],
+        notes: "",
+        links: ["http://youtube.com/post/UgkxFlgZnHk3mzCtjRVlfoyIACgZbRT04p2z?si=28CXcQbezxfylxJK"]
+    },
+    {
+        path: "img/2026/08/2026_08_21_4.png",
+        date: "2026-08-21",
+        tags: ["Life", "ChatGPT", "Journal"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_21_3.png",
+        date: "2026-08-21",
+        tags: ["YouTube", "Godot", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_21_2.png",
+        date: "2026-08-21",
+        tags: ["Life"],
+        notes: "",
+        links: ["https://web.facebook.com/janith.n.danushika/posts/pfbid02aVacRFnQHPRc6mNUoQQh7LhDDmYi2QjXVixo2zcgd1E37BSEiWdzZ9EvKV97fGv8l"]
+    },
+    {
+        path: "img/2026/08/2026_08_21_1.png",
+        date: "2026-08-21",
+        tags: ["YouTube", "Game Dev", "Godot"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_20_1.png",
+        date: "2026-08-20",
+        tags: ["Tools", "Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_18_2.png",
+        date: "2026-08-18",
+        tags: ["Art", "Miucaz"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_18_1.png",
+        date: "2026-08-18",
+        tags: ["Tools", "ChatGPT", "Antigravity", "PythonQT", "Rust"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_17_1.png",
+        date: "2026-08-17",
+        tags: ["Game Dev", "Unity"],
+        notes: "",
+        links: ["https://www.youtube.com/watch?v=oJEq4sPxHhU"]
+    },
+    {
+        path: "img/2026/08/2026_08_16_2.png",
+        date: "2026-08-16",
+        tags: ["Life", "Setup", "Art", "Graphic Design"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/08/2026_08_16_1.png",
         date: "2026-08-16",
         tags: ["RFC"],
