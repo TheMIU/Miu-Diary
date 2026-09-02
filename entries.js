@@ -8,6 +8,76 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/09/2026_09_02_5.png",
+        date: "2026-09-02",
+        tags: ["USKG", "Art"],
+        notes: "",
+        links: ["https://uskgalle.github.io/artists"]
+    },
+    {
+        path: "img/2026/09/2026_09_02_4.png",
+        date: "2026-09-02",
+        tags: ["USKG", "Art"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_02_3.png",
+        date: "2026-09-02",
+        tags: ["RFC"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_02_2.png",
+        date: "2026-09-02",
+        tags: ["SIH"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_02_1.png",
+        date: "2026-09-02",
+        tags: ["Game Dev", "YouTube"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_29_3.png",
+        date: "2026-08-29",
+        tags: ["Art", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_29_2.png",
+        date: "2026-08-29",
+        tags: ["USKG", "Graphic Design"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_29_1.png",
+        date: "2026-08-29",
+        tags: ["YouTube", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/08/2026_08_27_1.png",
+        date: "2026-08-27",
+        tags: ["Normal Map", "Art", "Game Dev"],
+        notes: "Its no longer free :(",
+        links: ["https://azagaya.itch.io/laigter"]
+    },
+    {
+        path: "img/2026/08/2026_08_26_1.png",
+        date: "2026-08-26",
+        tags: ["Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/08/2026_08_25_6.png",
         date: "2026-08-25",
         tags: ["USK Galle", "Art", "Web Dev"],
