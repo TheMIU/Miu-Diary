@@ -8,6 +8,83 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/09/2026_09_13_2.png",
+        date: "2026-09-13",
+        tags: ["RFC"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_13_1.png",
+        date: "2026-09-13",
+        tags: ["Life"],
+        notes: "",
+        links: ["https://web.facebook.com/share/p/1DHUb4SDvC/"]
+    },
+    {
+        path: "img/2026/09/2026_09_12_1.png",
+        date: "2026-09-12",
+        tags: ["Automation", "Python", "Tools"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_11_2.png",
+        date: "2026-09-11",
+        tags: ["Antigravity", "ChatGPT", "Claude", "Agents", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_11_1.png",
+        date: "2026-09-11",
+        tags: ["Unity", "Active Ragdolls", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_10_6.png",
+        date: "2026-09-10",
+        tags: ["Motivation"],
+        notes: "",
+        links: ["https://www.youtube.com/playlist?list=PLFrgp3AwKV5Q"]
+    },
+    {
+        path: "img/2026/09/2026_09_10_5.png",
+        date: "2026-09-10",
+        tags: ["FeatherFly", "Godot", "Game Dev"],
+        notes: "",
+        links: ["https://docs.google.com/presentation/d/1VMI9QLLal9B4CsyFgb-tOJSlLJzqUrYfp4Omb6ktZWc/edit?usp=sharing"]
+    },
+    {
+        path: "img/2026/09/2026_09_10_4.png",
+        date: "2026-09-10",
+        tags: ["USK Galle", "Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_10_3.png",
+        date: "2026-09-10",
+        tags: ["YouTube"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_10_2.png",
+        date: "2026-09-10",
+        tags: ["RFC"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_10_1.png",
+        date: "2026-09-10",
+        tags: ["Life"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/09/2026_09_02_5.png",
         date: "2026-09-02",
         tags: ["USKG", "Art"],
