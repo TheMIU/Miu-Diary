@@ -8,6 +8,69 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/09/2026_09_20_2.png",
+        date: "2026-09-20",
+        tags: ["Tools", "Web Dev"],
+        notes: "",
+        links: ["https://miubitz.github.io/"]
+    },
+    {
+        path: "img/2026/09/2026_09_20_1.png",
+        date: "2026-09-20",
+        tags: ["RFC"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_18_1.png",
+        date: "2026-09-18",
+        tags: ["Film", "M Entertainment"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_17_1.png",
+        date: "2026-09-17",
+        tags: ["ChatGPT"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_16_1.png",
+        date: "2026-09-16",
+        tags: ["Game Ideas", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_15_2.png",
+        date: "2026-09-15",
+        tags: ["ChatGPT", "Astra", "Blender"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_15_1.png",
+        date: "2026-09-15",
+        tags: ["Meshy", "Tools"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_14_2.png",
+        date: "2026-09-14",
+        tags: ["ChatGPT", "Astra"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_14_1.png",
+        date: "2026-09-14",
+        tags: ["Miu Plays"],
+        notes: "",
+        links: ["https://miuplays.github.io/"]
+    },
+    {
         path: "img/2026/09/2026_09_13_2.png",
         date: "2026-09-13",
         tags: ["RFC"],
