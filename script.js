@@ -124,6 +124,49 @@ function goToMonth(key) {
     render();
 }
 
+// ── image fallback helper ────────────────────────────────
+function handleImgError(img, isLightbox = false) {
+    if (!img.dataset) img.dataset = {};
+    const src = img.src || "";
+    const clean = src.split("?")[0].split("#")[0].toLowerCase();
+
+    // If already failing on NoImage, try NoImage.png or stop
+    if (clean.includes("noimage")) {
+        if (clean.endsWith(".webp")) {
+            img.src = "img/NoImage.png";
+            return;
+        }
+        img.onerror = null;
+        return;
+    }
+
+    // Try alternative extension once (.png <-> .webp)
+    if (!img.dataset.triedAlt) {
+        img.dataset.triedAlt = "true";
+        if (clean.endsWith(".png")) {
+            const nextSrc = src.replace(/\.png($|\?|#)/i, ".webp$1");
+            img.src = nextSrc;
+            if (isLightbox) {
+                const fileEl = document.getElementById("lb-file");
+                if (fileEl) fileEl.textContent = nextSrc.split("/").pop();
+            }
+            return;
+        }
+        if (clean.endsWith(".webp")) {
+            const nextSrc = src.replace(/\.webp($|\?|#)/i, ".png$1");
+            img.src = nextSrc;
+            if (isLightbox) {
+                const fileEl = document.getElementById("lb-file");
+                if (fileEl) fileEl.textContent = nextSrc.split("/").pop();
+            }
+            return;
+        }
+    }
+
+    // Fallback to NoImage.webp
+    img.src = "img/NoImage.webp";
+}
+
 // ── render ───────────────────────────────────────────────
 function render() {
     const months = getMonthKeys();
@@ -151,7 +194,7 @@ function render() {
 
     const cards = filtered.map((e, i) => `
         <div class="card" onclick="openLb(${i})">
-            <img src="${e.path}" alt="" loading="lazy" onerror="this.src='img/NoImage.png'">
+            <img src="${e.path}" alt="" loading="lazy" onerror="handleImgError(this)">
             <div class="card-foot">
                 <span class="card-day">${parseDate(e.date).day}</span>
                 <div class="card-dots">${(e.tags || []).map(() => `<span class="dot"></span>`).join("")}</div>
@@ -191,8 +234,10 @@ function render() {
 function openLb(i) {
     currentIdx = i;
     const e = filtered[i];
-    document.getElementById("lb-img").src = e.path;
-    document.getElementById("lb-img").onerror = function () { this.src = 'img/NoImage.png'; };
+    const lbImg = document.getElementById("lb-img");
+    if (lbImg.dataset) lbImg.dataset.triedAlt = "";
+    lbImg.onerror = function () { handleImgError(this, true); };
+    lbImg.src = e.path;
     document.getElementById("lb-date").textContent = formatDate(e.date);
     document.getElementById("lb-file").textContent = e.path.split("/").pop();
     document.getElementById("lb-tags").innerHTML = (e.tags || []).map(t => `<span class="lb-tag">${t}</span>`).join("") || `<span style="color:#ccc">—</span>`;
