@@ -7,6 +7,69 @@ const tagGroups = {
 };
 
 const entries = [
+        {
+        path: "img/2026/09/2026_09_27_1.png",
+        date: "2026-09-27",
+        tags: ["RFC"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_26_2.png",
+        date: "2026-09-26",
+        tags: ["Godot Sensei", "Godot", "Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_26_1.png",
+        date: "2026-09-26",
+        tags: ["Life"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_25_1.png",
+        date: "2026-09-25",
+        tags: ["M Entertainment", "Quotes"],
+        notes: "",
+        links: ["https://www.youtube.com/watch?v=2KViA4Z_BW8&list=PL0mz1SVZwu2GDlirZU96bhec7BCW7nQFE&index=47"]
+    },
+    {
+        path: "img/2026/09/2026_09_24_1.png",
+        date: "2026-09-24",
+        tags: ["Bat Man", "M Entertainment"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_22_4.png",
+        date: "2026-09-22",
+        tags: ["Featherfly", "Miusoft", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_22_3.png",
+        date: "2026-09-22",
+        tags: ["MiuBitz", "Tools"],
+        notes: "",
+        links: ["https://miubitz.github.io/WebP_Image_Optimizer/"]
+    },
+    {
+        path: "img/2026/09/2026_09_22_2.png",
+        date: "2026-09-22",
+        tags: ["Life"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_22_1.png",
+        date: "2026-09-22",
+        tags: ["Life", "ChatGPT"],
+        notes: "",
+        links: []
+    },
     {
         path: "img/2026/09/2026_09_20_2.png",
         date: "2026-09-20",
