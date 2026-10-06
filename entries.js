@@ -7,7 +7,98 @@ const tagGroups = {
 };
 
 const entries = [
-        {
+    {
+        path: "img/2026/10/2026_10_04_3.png",
+        date: "2026-10-04",
+        tags: ["Art", "USKG"],
+        notes: "",
+        links: ["https://www.instagram.com/p/DeEnnK4DYVP/"]
+    },
+    {
+        path: "img/2026/10/2026_10_04_2.png",
+        date: "2026-10-04",
+        tags: ["Games", "Godot", "Game Jam"],
+        notes: "",
+        links: ["https://miusoft.itch.io/art-of-peace"]
+    },
+    {
+        path: "img/2026/10/2026_10_04_1.png",
+        date: "2026-10-04",
+        tags: ["RFC"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_03_3.png",
+        date: "2026-10-03",
+        tags: ["Ai Agent", "Ai"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_03_2.png",
+        date: "2026-10-03",
+        tags: ["USKG", "Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_03_1.png",
+        date: "2026-10-03",
+        tags: ["USKG", "Art"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_02_1.png",
+        date: "2026-10-02",
+        tags: ["Godot", "Game Jam"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_01_3.png",
+        date: "2026-10-01",
+        tags: ["MiuBitz", "Tools", "Web Dev"],
+        notes: "",
+        links: ["https://miubitz.github.io/"]
+    },
+    {
+        path: "img/2026/10/2026_10_01_2.png",
+        date: "2026-10-01",
+        tags: ["Tools", "MiuBitz"],
+        notes: "",
+        links: ["https://miubitz.github.io/Daily-Journal/"]
+    },
+    {
+        path: "img/2026/10/2026_10_01_1.png",
+        date: "2026-10-01",
+        tags: ["Art", "Game Assets"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_30_3.png",
+        date: "2026-09-30",
+        tags: ["USKG", "Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_30_2.png",
+        date: "2026-09-30",
+        tags: ["M Entertainment"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/09/2026_09_30_1.png",
+        date: "2026-09-30",
+        tags: ["M Entertainment", "Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/09/2026_09_27_1.png",
         date: "2026-09-27",
         tags: ["RFC"],
