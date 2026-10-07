@@ -8,6 +8,37 @@ const tagGroups = {
 
 const entries = [
     {
+        "path": "img/2026/10/2026_10_06_3.webp",
+        "date": "2026-10-06",
+        "tags": [
+            "M Entertainment"
+        ],
+        "notes": "",
+        "links": [
+            "http://youtube.com/post/UgkxztFvNk_DI9g_W-e1_E03hgfKqnGg-j8c?si=Z2C_WCkSKL0zzmcx"
+        ]
+    },
+    {
+        "path": "img/2026/10/2026_10_06_2.webp",
+        "date": "2026-10-06",
+        "tags": [
+            "Journal",
+            "Diary"
+        ],
+        "notes": "",
+        "links": []
+    },
+    {
+        "path": "img/2026/10/2026_10_06_1.webp",
+        "date": "2026-10-06",
+        "tags": [
+            "Films",
+            "M Entertainment"
+        ],
+        "notes": "",
+        "links": []
+    },
+    {
         path: "img/2026/10/2026_10_04_3.png",
         date: "2026-10-04",
         tags: ["Art", "USKG"],
