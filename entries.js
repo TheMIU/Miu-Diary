@@ -8,6 +8,20 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/10/2026_10_09_2.webp",
+        date: "2026-10-09",
+        tags: ["Godot", "Game Dev", "Steam"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_09_1.webp",
+        date: "2026-10-09",
+        tags: ["Godot", "Codex", "Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/10/2026_10_07_2.webp",
         date: "2026-10-07",
         tags: ["Tools"],
