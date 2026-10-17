@@ -8,6 +8,69 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/10/2026_10_17_1.webp",
+        date: "2026-10-17",
+        tags: ["Journal", "MiuBitz", "Tools"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_15_3.webp",
+        date: "2026-10-15",
+        tags: ["Tools", "MiuBitz"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_15_2.webp",
+        date: "2026-10-15",
+        tags: ["M Entertainment"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_15_1.webp",
+        date: "2026-10-15",
+        tags: ["Antigravity"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_13_1.webp",
+        date: "2026-10-13",
+        tags: ["Godot", "Game Dev", "Steam"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_11_1.webp",
+        date: "2026-10-11",
+        tags: ["RFC"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_10_3.webp",
+        date: "2026-10-10",
+        tags: ["Codex"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_10_2.webp",
+        date: "2026-10-10",
+        tags: ["Web Dev", "Ai Agent", "Codex"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_10_1.webp",
+        date: "2026-10-10",
+        tags: ["Web Dev", "Architecture"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/10/2026_10_09_2.webp",
         date: "2026-10-09",
         tags: ["Godot", "Game Dev", "Steam"],
