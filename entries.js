@@ -8,6 +8,69 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/10/2026_10_25_3.webp",
+        date: "2026-10-25",
+        tags: ["Run"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_25_2.webp",
+        date: "2026-10-25",
+        tags: ["RFC"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_25_1.webp",
+        date: "2026-10-25",
+        tags: ["FeatherFly"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_21_3.webp",
+        date: "2026-10-21",
+        tags: ["Fonts"],
+        notes: "",
+        links: ["https://fonts.google.com/specimen/Maname"]
+    },
+    {
+        path: "img/2026/10/2026_10_21_2.webp",
+        date: "2026-10-21",
+        tags: ["Film", "M Entertainment"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_21_1.webp",
+        date: "2026-10-21",
+        tags: ["Run"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_18_1.webp",
+        date: "2026-10-18",
+        tags: ["RFC"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_17_3.webp",
+        date: "2026-10-17",
+        tags: ["Tools"],
+        notes: "",
+        links: ["https://www.youtube.com/watch?v=eFB79TYI-Vw"]
+    },
+    {
+        path: "img/2026/10/2026_10_17_2.webp",
+        date: "2026-10-17",
+        tags: ["Tools"],
+        notes: "",
+        links: ["https://getartcraft.com/apps"]
+    },
+    {
         path: "img/2026/10/2026_10_17_1.webp",
         date: "2026-10-17",
         tags: ["Journal", "MiuBitz", "Tools"],
