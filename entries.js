@@ -8,6 +8,27 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/10/2026_10_30_1.webp",
+        date: "2026-10-30",
+        tags: ["Tools", "MiuBitz"],
+        notes: "තාම public එකක් හදල නෑ.",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_29_1.webp",
+        date: "2026-10-29",
+        tags: ["M Entertainment"],
+        notes: "",
+        links: ["https://youtu.be/z-mWKlzr7E8"]
+    },
+    {
+        path: "img/2026/10/2026_10_28_1.webp",
+        date: "2026-10-28",
+        tags: ["Run"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/10/2026_10_25_3.webp",
         date: "2026-10-25",
         tags: ["Run"],
