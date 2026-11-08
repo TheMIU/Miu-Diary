@@ -8,6 +8,97 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/11/2026_11_08_3.webp",
+        date: "2026-11-08",
+        tags: ["Life", "Instagram"],
+        notes: "",
+        links: ["https://www.instagram.com/p/DfejOrqDYlX/?img_index=1"]
+    },
+    {
+        path: "img/2026/11/2026_11_08_2.webp",
+        date: "2026-11-08",
+        tags: ["RFC", "Run", "Run For Coffee"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_08_1.webp",
+        date: "2026-11-08",
+        tags: ["Life"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_07_2.webp",
+        date: "2026-11-07",
+        tags: ["Life", "Journal"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_07_1.webp",
+        date: "2026-11-07",
+        tags: ["Setup", "PC"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_06_1.webp",
+        date: "2026-11-06",
+        tags: ["meme"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_05_1.webp",
+        date: "2026-11-05",
+        tags: ["Unity"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_04_1.webp",
+        date: "2026-11-04",
+        tags: ["Run"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_02_1.webp",
+        date: "2026-11-02",
+        tags: ["Godot", "Miusoft"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_01_2.webp",
+        date: "2026-11-01",
+        tags: ["RFC"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_01_1.webp",
+        date: "2026-11-01",
+        tags: ["RFC", "Run"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_31_1.webp",
+        date: "2026-10-31",
+        tags: ["Journal"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/10/2026_10_30_2.webp",
+        date: "2026-10-30",
+        tags: ["meme"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/10/2026_10_30_1.webp",
         date: "2026-10-30",
         tags: ["Tools", "MiuBitz"],
