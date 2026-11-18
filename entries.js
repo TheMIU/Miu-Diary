@@ -8,6 +8,62 @@ const tagGroups = {
 
 const entries = [
     {
+        path: "img/2026/11/2026_11_18_1.webp",
+        date: "2026-11-18",
+        tags: ["Run"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_16_4.webp",
+        date: "2026-11-16",
+        tags: ["USK Galle", "Web Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_16_3.webp",
+        date: "2026-11-16",
+        tags: ["Game Dev"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_16_2.webp",
+        date: "2026-11-16",
+        tags: ["Run For Coffee", "Run"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_16_1.webp",
+        date: "2026-11-16",
+        tags: ["USK Galle", "Art"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_12_1.webp",
+        date: "2026-11-12",
+        tags: ["PC", "Setup"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_11_1.webp",
+        date: "2026-11-11",
+        tags: ["Run"],
+        notes: "",
+        links: []
+    },
+    {
+        path: "img/2026/11/2026_11_10_1.webp",
+        date: "2026-11-10",
+        tags: ["Miusoft", "Prasino"],
+        notes: "",
+        links: []
+    },
+    {
         path: "img/2026/11/2026_11_08_3.webp",
         date: "2026-11-08",
         tags: ["Life", "Instagram"],
